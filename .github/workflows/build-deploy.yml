@@ -1,6 +1,5 @@
 name: Build Deploy
 
-# 在main分支发生push事件时触发。
 on:
   push:
     branches:
@@ -8,7 +7,7 @@ on:
       - szk-pages
 
 env: # 设置环境变量
-  TZ: Asia/Shanghai # 时区（设置时区可使页面中的`最近更新时间`使用时区时间）
+  TZ: Asia/Shanghai # 时区
 
 jobs:
   deploy:
@@ -17,18 +16,35 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
-      - name: build project ⚗️
+      - name: Setup Node.js ⚗️
         uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: |
-          npm install
-          yarn build
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the project
+        run: yarn build
+      
+      - name: Build with custom environment variables
+        run: |
+          echo "VSSUE_CLIENT_ID is $VSSUE_CLIENT_ID"
+          echo "VSSUE_CLIENT_SECRET is $VSSUE_CLIENT_SECRET"
+          echo "Building project"
+        env:
+          VSSUE_CLIENT_ID: ${{ secrets.VSSUE_CLIENT_ID }}
+          VSSUE_CLIENT_SECRET: ${{ secrets.VSSUE_CLIENT_SECRET }}
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
-        env: # 设置环境变量
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
         with:
+          branch: szk-pages
           folder: docs/.vuepress/dist
-          branch: szk-pages # 部署到的分支
+        env:
+          VSSUE_CLIENT_ID: ${{ secrets.VSSUE_CLIENT_ID }}  # 从 GitHub Secrets 获取环境变量
+          VSSUE_CLIENT_SECRET: ${{ secrets.VSSUE_CLIENT_SECRET }}  # 从 GitHub Secrets 获取环境变量
+
+permissions:
+  contents: write
+  issues: write

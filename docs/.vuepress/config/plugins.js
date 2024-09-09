@@ -29,8 +29,8 @@ module.exports = [
       needComments: true,
       // 其他的 Vssue 配置
       autoCreateIssue: true,
-      clientId: "Ov23liHK9xSSaGV8vhew",
-      clientSecret: "6c935bd520c89d92f6989682ccdf13fda0a45190",
+      clientId: VSSUE_CLIENT_ID,
+      clientSecret: VSSUE_CLIENT_SECRET,
       owner: "sunzekai795",
       repo: "sunzekai795.github.io",
     },
