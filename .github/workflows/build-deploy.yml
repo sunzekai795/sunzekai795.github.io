@@ -26,24 +26,12 @@ jobs:
 
       - name: Build the project
         run: yarn build
-      
-      - name: Build with custom environment variables
-        run: |
-          echo "VSSUE_CLIENT_ID is $VSSUE_CLIENT_ID"
-          echo "VSSUE_CLIENT_SECRET is $VSSUE_CLIENT_SECRET"
-          echo "Building project"
-        env:
-          VSSUE_CLIENT_ID: ${{ secrets.VSSUE_CLIENT_ID }}
-          VSSUE_CLIENT_SECRET: ${{ secrets.VSSUE_CLIENT_SECRET }}
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: szk-pages
           folder: docs/.vuepress/dist
-        env:
-          VSSUE_CLIENT_ID: ${{ secrets.VSSUE_CLIENT_ID }}  # 从 GitHub Secrets 获取环境变量
-          VSSUE_CLIENT_SECRET: ${{ secrets.VSSUE_CLIENT_SECRET }}  # 从 GitHub Secrets 获取环境变量
 
 permissions:
   contents: write

@@ -1,3 +1,4 @@
+require('dotenv').config();
 // 插件配置
 module.exports = [
   // 全文搜索插件
@@ -29,8 +30,8 @@ module.exports = [
       needComments: true,
       // 其他的 Vssue 配置
       autoCreateIssue: true,
-      clientId: VSSUE_CLIENT_ID,
-      clientSecret: VSSUE_CLIENT_SECRET,
+      clientId: process.env.VSSUE_CLIENT_ID,
+      clientSecret: process.env.VSSUE_CLIENT_SECRET,
       owner: "sunzekai795",
       repo: "sunzekai795.github.io",
     },
