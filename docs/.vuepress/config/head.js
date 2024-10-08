@@ -8,13 +8,13 @@ module.exports = [
       href: "https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20220720_132133.ico",
     },
   ], //favicons，资源放在public文件夹
-  [
-    "meta",
-    {
-      name: "keywords",
-      content: "二丫讲梵,golang,vue,go-web,go-admin,go-ldap-admin",
-    },
-  ],
+  // [
+  //   "meta",
+  //   {
+  //     name: "keywords",
+  //     content: "二丫讲梵,golang,vue,go-web,go-admin,go-ldap-admin",
+  //   },
+  // ],
   // ['meta', { name: 'baidu-site-verification', content: 'code-LTKHwOecxI' }], // 百度统计的站长验证
   ["meta", { name: "theme-color", content: "#11a8cd" }], // 移动浏览器主题颜色
   // [

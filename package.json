@@ -27,6 +27,7 @@
   "dependencies": {
     "busuanzi.pure.js": "^1.0.3",
     "dotenv": "^16.4.5",
-    "leancloud-storage": "^4.11.1"
+    "leancloud-storage": "^4.11.1",
+    "vuepress-plugin-vssue-global": "^0.0.3"
   }
 }
