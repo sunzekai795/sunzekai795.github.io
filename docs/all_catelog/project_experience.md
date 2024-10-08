@@ -2,10 +2,10 @@
 pageComponent:
   name: Catalogue
   data:
-    key: 04.four
-title: four
+    key: project_experience
+title: Project Experience
 date: 2024-07-20 11:05:54
-permalink: /four/
+permalink: /project_experience/
 sidebar: false
 article: false
 comment: false

@@ -2,10 +2,10 @@
 pageComponent:
   name: Catalogue
   data:
-    key: 03.three
-title: three
-date: 2022-07-20 11:05:54
-permalink: /three/
+    key: personal_essay
+title: Personal essay
+date: 2024-07-25 11:05:42
+permalink: /personal_essay/
 sidebar: false
 article: false
 comment: false
