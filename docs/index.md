@@ -2,7 +2,7 @@
 home: true
 # heroImage: sunzekai795.github.io/images/0e69cd48d33675a9b04b77a315408ffa52f31cd6.jpg@1256w_680h_!web-article-pic.jpg
 tagline: Personal essay、Learning notes、Project experience、Life records、etc.
-heroText: Sunzekai's Personal Website
+heroText: Sunzekai's Personal Blog
 # actionText: 开始浏览 →
 # actionLink: /pages/24768e/
 bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量

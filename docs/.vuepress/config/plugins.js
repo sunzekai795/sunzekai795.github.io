@@ -22,20 +22,20 @@ module.exports = [
       },
     },
   ],
-  [
-    "vuepress-plugin-vssue-global",
-    {
-      platform: "github",
-      title: "[Comment]<%- frontmatter.title %>",
-      needComments: true,
-      // 其他的 Vssue 配置
-      autoCreateIssue: true,
-      clientId: process.env.VSSUE_CLIENT_ID,
-      clientSecret: process.env.VSSUE_CLIENT_SECRET,
-      owner: "sunzekai795",
-      repo: "",
-    },
-  ],
+  // [
+  //   "vuepress-plugin-vssue-global",
+  //   {
+  //     platform: "github",
+  //     title: "[Comment]<%- frontmatter.title %>",
+  //     needComments: true,
+  //     // 其他的 Vssue 配置
+  //     autoCreateIssue: true,
+  //     clientId: process.env.VSSUE_CLIENT_ID,
+  //     clientSecret: process.env.VSSUE_CLIENT_SECRET,
+  //     owner: "sunzekai795",
+  //     repo: "",
+  //   },
+  // ],
   [
     '@vuepress/last-updated', // "上次更新"时间格式
     {

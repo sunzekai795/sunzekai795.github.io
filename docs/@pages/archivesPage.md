@@ -1,6 +1,9 @@
 ---
 archivesPage: true
-title: 归档
+title: Archiving of all articles
 permalink: /archives/
 article: false
+sidebar: true
+comment: false
+editLink: false
 ---
