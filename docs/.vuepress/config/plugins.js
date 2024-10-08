@@ -33,7 +33,7 @@ module.exports = [
       clientId: process.env.VSSUE_CLIENT_ID,
       clientSecret: process.env.VSSUE_CLIENT_SECRET,
       owner: "sunzekai795",
-      repo: "sunzekai795.github.io",
+      repo: "",
     },
   ],
   [

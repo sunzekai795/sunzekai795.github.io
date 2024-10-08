@@ -4,7 +4,7 @@ const themeConfig = require('./config/themeConfig.js');
 
 module.exports = {
   theme: 'vdoing', // 使用npm包主题
-  title: "szk-blogs",
+  title: "孙泽凯的个人博客",
   description: 'blog page for szk',
   base: '/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
