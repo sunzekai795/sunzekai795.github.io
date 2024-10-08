@@ -3,7 +3,7 @@ archivesPage: true
 title: Archiving of all articles
 permalink: /archives/
 article: false
-sidebar: true
+sidebar: false
 comment: false
 editLink: false
 ---
