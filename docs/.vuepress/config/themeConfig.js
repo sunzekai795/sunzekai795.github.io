@@ -33,8 +33,26 @@ module.exports = {
   // sidebarOpen: false, // 初始状态是否打开侧边栏，默认true
   // pageButton: false, // 是否显示快捷翻页按钮，默认true
 
-  sidebar: { mode: 'structuring', collapsable: false }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
-  pageStyle: 'line', // 页面风格，可选值：'card'卡片 | 'line' 线（未设置bodyBgImg时才生效）， 默认'card'。 说明：card时背景显示灰色衬托出卡片样式，line时背景显示纯色，并且部分模块带线条边框
+  sidebar: {
+    mode: 'structuring',
+    collapsable: false,
+    '/00.目录页/': [
+      {
+        title: '目录页',  // 侧边栏的标题
+        collapsable: false,  // 设置为不可折叠
+        children: [
+          // 确保路径与文件结构一致，引用的文件路径都存在
+          '01.one.md',   // 假设文件 docs/00.目录页/01.first.md 存在
+          '02.two.md',  // 假设文件 docs/00.目录页/02.second.md 存在
+          '03.three.md',   // 假设文件 docs/00.目录页/03.third.md 存在
+          '04.four.md'   // 假设文件 docs/00.目录页/04.fourth.md 存在
+        ]
+      }
+    ],
+  },
+  // sidebar: { mode: 'structuring', collapsable: false }, 
+  // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
+  pageStyle: 'card', // 页面风格，可选值：'card'卡片 | 'line' 线（未设置bodyBgImg时才生效）， 默认'card'。 说明：card时背景显示灰色衬托出卡片样式，line时背景显示纯色，并且部分模块带线条边框
   updateBar: { // 最近更新栏
     showToArticle: false, // 显示到文章页底部，默认true
   },
