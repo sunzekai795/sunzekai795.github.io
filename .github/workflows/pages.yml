@@ -21,15 +21,14 @@ jobs:
           # Examples: 20, 18.19, >=16.20.2, lts/Iron, lts/Hydrogen, *, latest, current, node
           # Ref: https://github.com/actions/setup-node#supported-version-syntax
           node-version: "20"
-      - name: Cache NPM dependencies
-        uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: ${{ runner.OS }}-npm-cache
-          restore-keys: |
-            ${{ runner.OS }}-npm-cache
+          # Cache the npm download cache (~/.npm), keyed on package-lock.json.
+          # This avoids caching node_modules directly, which previously kept a
+          # stale dependency tree and broke installs when dependencies changed.
+          cache: "npm"
       - name: Install Dependencies
-        run: npm install
+        # npm ci removes node_modules and installs exactly from package-lock.json,
+        # giving a clean, reproducible install on every run.
+        run: npm ci
       - name: Build
         run: npm run build
       - name: Upload Pages artifact
