@@ -1,205 +1,145 @@
- 
-# - links_category: Elites
-#   has_thumbnail: true
-#   list: 
-#     - name: EvanNotFound's Blog
-#       link: https://ohevan.com
-#       description: 用香港记者的速度更新文章
-#       avatar: https://evan.beee.top/avatar.png
-#       thumbnail: https://img1.imgtp.com/2023/06/19/Jegvz84P.png # has_thumbnail 为 true 时才需要
 
-- links_category: 同道 · AI / ML 博客
+# 友链数据：经典学习资料 / 高 star GitHub 仓库 / 计算机热门网站 / 顶级会议
+# 头像统一使用 Google favicon 服务，对任意域名稳定返回图标
+
+- links_category: 经典学习资料
   has_thumbnail: false
   list:
-    - name: Lil'Log (Lilian Weng)
-      link: https://lilianweng.github.io/
-      description: 深度且体系化的 LLM / RL / Agent 长文，业内公认的高质量博客。
-      avatar: https://www.google.com/s2/favicons?sz=64&domain=lilianweng.github.io
+    - name: Dive into Deep Learning (D2L)
+      link: https://d2l.ai/
+      description: 交互式深度学习开源教材，含代码、数学与多框架实现，中英双语。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=d2l.ai
 
-    - name: Sebastian Raschka
-      link: https://sebastianraschka.com/
-      description: 《Build a LLM from Scratch》作者，深入浅出讲大模型训练与实现。
-      avatar: https://www.google.com/s2/favicons?sz=64&domain=sebastianraschka.com
+    - name: MIT OpenCourseWare
+      link: https://ocw.mit.edu/
+      description: 麻省理工开放课程，海量计算机与数学课程讲义、作业与视频。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=ocw.mit.edu
 
-    - name: Jay Alammar
-      link: https://jalammar.github.io/
-      description: The Illustrated Transformer 作者，Transformer 可视化讲解的经典。
-      avatar: https://www.google.com/s2/favicons?sz=64&domain=jalammar.github.io
+    - name: Stanford CS231n
+      link: https://cs231n.github.io/
+      description: 斯坦福经典视觉与深度学习课程笔记，入门 CNN 的最佳材料之一。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=cs231n.github.io
 
-    - name: Andrej Karpathy
-      link: https://karpathy.github.io/
-      description: 前特斯拉 AI 总监，神经网络与 LLM 的硬核科普与教程。
-      avatar: https://www.google.com/s2/favicons?sz=64&domain=karpathy.github.io
+    - name: The Annotated Transformer
+      link: https://nlp.seas.harvard.edu/annotated-transformer/
+      description: 哈佛 NLP 组逐行注释实现 Transformer，配合论文阅读极佳。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=harvard.edu
 
-    - name: Hugging Face Blog
-      link: https://huggingface.co/blog
-      description: 开源社区一线，模型发布、训练技巧与实践教程的集散地。
+    - name: fast.ai
+      link: https://www.fast.ai/
+      description: 自顶向下的实战派深度学习课程，强调动手与可达性。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=fast.ai
+
+    - name: Distill.pub
+      link: https://distill.pub/
+      description: 以可视化与交互讲清机器学习概念的研究刊物，质量极高。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=distill.pub
+
+- links_category: 高 star GitHub 仓库
+  has_thumbnail: false
+  list:
+    - name: PyTorch
+      link: https://github.com/pytorch/pytorch
+      description: 最主流的深度学习框架之一，动态图、生态完善。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=github.com
+
+    - name: Hugging Face Transformers
+      link: https://github.com/huggingface/transformers
+      description: 预训练模型的事实标准库，覆盖 NLP/CV/多模态。
       avatar: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
 
-    - name: Chip Huyen
-      link: https://huyenchip.com/
-      description: 机器学习系统与 LLMOps 实战，《Designing ML Systems》作者。
-      avatar: https://www.google.com/s2/favicons?sz=64&domain=huyenchip.com
+    - name: vLLM
+      link: https://github.com/vllm-project/vllm
+      description: 高吞吐 LLM 推理引擎，PagedAttention 的开源实现。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=github.com
 
-    - name: BAIR Blog
-      link: https://bair.berkeley.edu/blog/
-      description: 伯克利人工智能研究院官方博客，前沿研究的第一手解读。
-      avatar: https://www.google.com/s2/favicons?sz=64&domain=bair.berkeley.edu
+    - name: Ollama
+      link: https://github.com/ollama/ollama
+      description: 一行命令在本地跑开源大模型，体验极简。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=ollama.com
 
-    - name: The Gradient
-      link: https://thegradient.pub/
-      description: 高质量的 AI 评论与综述，兼顾深度与可读性。
-      avatar: https://www.google.com/s2/favicons?sz=64&domain=thegradient.pub
+    - name: llama.cpp
+      link: https://github.com/ggml-org/llama.cpp
+      description: 纯 C/C++ 的 LLM 推理，量化模型在端侧也能跑。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=github.com
 
-- links_category: 实用网站
+    - name: LangChain
+      link: https://github.com/langchain-ai/langchain
+      description: 构建 LLM 应用与 Agent 的流行框架。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=github.com
+
+    - name: LLaMA-Factory
+      link: https://github.com/hiyouga/LLaMA-Factory
+      description: 统一高效微调上百种大模型的开源工具。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=github.com
+
+- links_category: 计算机热门网站
   has_thumbnail: false
-  list: 
-    - name: Github
-      link: https://github.com/
-      description: A platform for hosting and reviewing code, managing projects, and collaborating on software.
-      avatar: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  list:
+    - name: arXiv
+      link: https://arxiv.org/
+      description: 计算机与 AI 预印本论文的第一来源。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=arxiv.org
 
-    - name: Wikipedia
-      link: https://www.wikipedia.org/
-      description: A free online encyclopedia that anyone can edit.
-      avatar: https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png
+    - name: Papers with Code
+      link: https://paperswithcode.com/
+      description: 论文配代码与榜单，追踪 SOTA 的好去处。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=paperswithcode.com
+
+    - name: Hugging Face
+      link: https://huggingface.co/
+      description: 模型、数据集与 Demo 的开源社区中枢。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
 
     - name: Stack Overflow
       link: https://stackoverflow.com/
-      description: A community-driven question-and-answer site for programmers.
-      avatar: https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.svg
+      description: 程序员问答社区，几乎所有报错都能找到线索。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=stackoverflow.com
 
-    - name: Google
-      link: https://www.google.com/
-      description: The world's most popular search engine.
-      avatar: https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg
+    - name: Google Scholar
+      link: https://scholar.google.com/
+      description: 学术搜索与引用追踪。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=scholar.google.com
 
-    - name: Reddit
-      link: https://www.reddit.com/
-      description: A social news aggregation, web content rating, and discussion website.
-      avatar: https://www.redditinc.com/assets/images/site/reddit-logo.png
+    - name: DBLP
+      link: https://dblp.org/
+      description: 计算机领域权威的论文与作者书目数据库。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=dblp.org
 
-    - name: YouTube
-      link: https://www.youtube.com/
-      description: A video-sharing platform where users can upload, view, and share videos.
-      avatar: https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg
+    - name: OpenReview
+      link: https://openreview.net/
+      description: 顶会公开评审平台，可看审稿意见与讨论。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=openreview.net
 
-    - name: Dropbox
-      link: https://www.dropbox.com/
-      description: A cloud-based file storage service.
-      avatar: https://upload.wikimedia.org/wikipedia/commons/7/71/Dropbox_logo.png
+- links_category: 顶级会议
+  has_thumbnail: false
+  list:
+    - name: NeurIPS
+      link: https://neurips.cc/
+      description: 机器学习与计算神经科学顶级会议。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=neurips.cc
 
-    - name: Notion
-      link: https://www.notion.so/
-      description: A productivity tool that blends notes, tasks, databases, and wikis in one app.
-      avatar: https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg
+    - name: ICML
+      link: https://icml.cc/
+      description: 国际机器学习大会。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=icml.cc
 
-    - name: Figma
-      link: https://www.figma.com/
-      description: A collaborative web-based interface design tool.
-      avatar: https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg
+    - name: ICLR
+      link: https://iclr.cc/
+      description: 表示学习领域顶级会议。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=iclr.cc
 
-    - name: Canva
-      link: https://www.canva.com/
-      description: A graphic design platform to create social media graphics, presentations, posters, and other visual content.
-      avatar: https://upload.wikimedia.org/wikipedia/commons/7/71/Canva_logo.png
+    - name: ACL Anthology
+      link: https://aclanthology.org/
+      description: ACL/EMNLP/NAACL 等 NLP 顶会论文全集。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org
 
-    - name: Evernote
-      link: https://evernote.com/
-      description: A note-taking app designed to keep your information organized.
-      avatar: https://upload.wikimedia.org/wikipedia/commons/0/08/Evernote_logo.png
+    - name: CVF Open Access
+      link: https://openaccess.thecvf.com/
+      description: CVPR/ICCV/ECCV 等视觉顶会的开放获取论文。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=thecvf.com
 
-    - name: Coursera
-      link: https://www.coursera.org/
-      description: An online learning platform offering courses, certificates, and degrees.
-      avatar: https://upload.wikimedia.org/wikipedia/commons/7/76/Coursera_Logo.svg
-
-    - name: Amazon
-      link: https://www.amazon.com/
-      description: The world's largest online retailer offering a wide variety of products.
-      avatar: https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg
-
-    - name: Microsoft
-      link: https://www.microsoft.com/
-      description: A global technology company providing software, services, devices, and solutions.
-      avatar: https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg
-    
-    - name: CSDN
-      link: https://www.csdn.net/
-      description: 中国最大的IT社区和服务平台，提供学习资料、博客、技术论坛等。
-      avatar: https://csdnimg.cn/public/favicon.ico
-
-    - name: 慕课网
-      link: https://www.imooc.com/
-      description: 在线IT技能学习平台，提供编程、前端、后端等课程。
-      avatar: https://www.imooc.com/static/img/common/touch-icon-ipad.png
-
-    - name: 中国知网
-      link: https://www.cnki.net/
-      description: 中国重要的学术论文和期刊数据库，提供大量科研文献资源。
-      avatar: https://www.cnki.net/favicon.ico
-
-    - name: 掘金
-      link: https://juejin.cn/
-      description: 程序员学习和分享的社区，提供技术文章、分享和职业发展建议。
-      avatar: https://lf3-cdn-tos.bytescm.com/obj/static/juejin_web/img/favicon.a7e5840.png
-
-    - name: 简书
-      link: https://www.jianshu.com/
-      description: 一个分享创作的社区，涵盖技术、生活、文化等多个领域。
-      avatar: https://www.jianshu.com/favicon.ico
-
-    - name: 开源中国
-      link: https://www.oschina.net/
-      description: 中国领先的开源技术社区，专注于开源软件和技术交流。
-      avatar: https://static.oschina.net/new-osc/img/favicon.ico
-
-    - name: 腾讯课堂
-      link: https://ke.qq.com/
-      description: 腾讯推出的在线学习平台，提供丰富的编程、设计等课程。
-      avatar: https://ke.qq.com/favicon.ico
-
-    - name: 网易云课堂
-      link: https://study.163.com/
-      description: 网易旗下的在线学习平台，提供广泛的技术和技能课程。
-      avatar: https://edu-image.nosdn.127.net/0FD54B19BDE00DBD9085B6E10A8A36D7.png
-
-    - name: 菜鸟教程
-      link: https://www.runoob.com/
-      description: 提供编程和开发技术的免费教程，包括HTML、JavaScript、Python等。
-      avatar: https://www.runoob.com/favicon.ico
-
-    - name: 牛客网
-      link: https://www.nowcoder.com/
-      description: IT技术人员的求职学习平台，提供面试经验、题库和课程。
-      avatar: https://www.nowcoder.com/favicon.ico
-
-    - name: 清华大学学术资源平台
-      link: https://www.lib.tsinghua.edu.cn/
-      description: 清华大学提供的在线学术资源和数据库访问服务。
-      avatar: https://www.lib.tsinghua.edu.cn/favicon.ico
-
-    - name: 博客园
-      link: https://www.cnblogs.com/
-      description: 一个面向开发者的技术分享博客社区。
-      avatar: https://common.cnblogs.com/favicon.ico
-
-    - name: 阿里云
-      link: https://www.aliyun.com/
-      description: 提供云计算服务、云服务器、数据库等技术解决方案。
-      avatar: https://www.aliyun.com/favicon.ico
-
-    - name: 知乎
-      link: https://www.zhihu.com/
-      description: 社交问答平台，用户可以在上面提出问题、解答他人的问题。
-      avatar: https://static.zhihu.com/heifetz/favicon.ico
-
-    - name: 哔哩哔哩
-      link: https://www.bilibili.com/
-      description: 中国知名的视频分享平台，包含大量的学习、技术类视频。
-      avatar: https://www.bilibili.com/favicon.ico
-
-    - name: 百度学术
-      link: https://xueshu.baidu.com/
-      description: 提供学术论文搜索服务，支持查找期刊、会议等学术资源。
-      avatar: https://xueshu.baidu.com/favicon.ico
+    - name: AAAI
+      link: https://aaai.org/
+      description: 人工智能领域历史悠久的综合性顶级会议。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=aaai.org
