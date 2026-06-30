@@ -11,7 +11,7 @@
 # Docs: https://redefine-docs.ohevan.com/basic/info
 info:
   # Site title
-  title: Peanut's Blog
+  title: Peanut.skill
   # Author name
   author: Sunzekai
   # Site URL
@@ -123,7 +123,7 @@ home_banner:
     light: /images/wallhaven-wqery6-light.webp # light mode
     dark: /images/wallhaven-wqery6-dark.webp # dark mode
   # Home banner title
-  title: Peanut's Blog
+  title: Peanut.skill
   # Home banner subtitle
   subtitle:
     text: [
