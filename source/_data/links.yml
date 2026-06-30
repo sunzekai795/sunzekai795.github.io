@@ -2,7 +2,7 @@
 # 友链数据：经典学习资料 / 高 star GitHub 仓库 / 计算机热门网站 / 顶级会议
 # 头像统一使用 Google favicon 服务，对任意域名稳定返回图标
 
-- links_category: 经典学习资料
+- links_category: Classic learning materials
   has_thumbnail: false
   list:
     - name: Dive into Deep Learning (D2L)
@@ -35,7 +35,7 @@
       description: 以可视化与交互讲清机器学习概念的研究刊物，质量极高。
       avatar: https://www.google.com/s2/favicons?sz=64&domain=distill.pub
 
-- links_category: 高 star GitHub 仓库
+- links_category: High star GitHub repos
   has_thumbnail: false
   list:
     - name: PyTorch
@@ -73,7 +73,7 @@
       description: 统一高效微调上百种大模型的开源工具。
       avatar: https://www.google.com/s2/favicons?sz=64&domain=github.com
 
-- links_category: 计算机热门网站
+- links_category: Popular websites
   has_thumbnail: false
   list:
     - name: arXiv
@@ -111,7 +111,7 @@
       description: 顶会公开评审平台，可看审稿意见与讨论。
       avatar: https://www.google.com/s2/favicons?sz=64&domain=openreview.net
 
-- links_category: 顶级会议
+- links_category: Top conferences
   has_thumbnail: false
   list:
     - name: NeurIPS
