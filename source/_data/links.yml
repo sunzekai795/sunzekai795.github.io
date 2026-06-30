@@ -7,7 +7,50 @@
 #       description: 用香港记者的速度更新文章
 #       avatar: https://evan.beee.top/avatar.png
 #       thumbnail: https://img1.imgtp.com/2023/06/19/Jegvz84P.png # has_thumbnail 为 true 时才需要
- 
+
+- links_category: 同道 · AI / ML 博客
+  has_thumbnail: false
+  list:
+    - name: Lil'Log (Lilian Weng)
+      link: https://lilianweng.github.io/
+      description: 深度且体系化的 LLM / RL / Agent 长文，业内公认的高质量博客。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=lilianweng.github.io
+
+    - name: Sebastian Raschka
+      link: https://sebastianraschka.com/
+      description: 《Build a LLM from Scratch》作者，深入浅出讲大模型训练与实现。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=sebastianraschka.com
+
+    - name: Jay Alammar
+      link: https://jalammar.github.io/
+      description: The Illustrated Transformer 作者，Transformer 可视化讲解的经典。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=jalammar.github.io
+
+    - name: Andrej Karpathy
+      link: https://karpathy.github.io/
+      description: 前特斯拉 AI 总监，神经网络与 LLM 的硬核科普与教程。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=karpathy.github.io
+
+    - name: Hugging Face Blog
+      link: https://huggingface.co/blog
+      description: 开源社区一线，模型发布、训练技巧与实践教程的集散地。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
+
+    - name: Chip Huyen
+      link: https://huyenchip.com/
+      description: 机器学习系统与 LLMOps 实战，《Designing ML Systems》作者。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=huyenchip.com
+
+    - name: BAIR Blog
+      link: https://bair.berkeley.edu/blog/
+      description: 伯克利人工智能研究院官方博客，前沿研究的第一手解读。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=bair.berkeley.edu
+
+    - name: The Gradient
+      link: https://thegradient.pub/
+      description: 高质量的 AI 评论与综述，兼顾深度与可读性。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=thegradient.pub
+
 - links_category: 实用网站
   has_thumbnail: false
   list: 

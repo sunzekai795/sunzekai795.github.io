@@ -127,10 +127,10 @@ home_banner:
   # Home banner subtitle
   subtitle:
     text: [
-      '喜欢的话，留个言好嘛(oﾟvﾟ)ノ',
-      '欢迎来到我的博客(｡･∀･)ﾉﾞ',
-      '文字正在不断轮换(*￣3￣)╭',
-      '正在努力更新博客(ง •_•)ง',
+      '记录 LLM、情感计算与对话系统的学习笔记',
+      '读论文 · 拆技术报告 · 追开源热点',
+      '保持输入，更要保持输出 (ง •_•)ง',
+      '喜欢的话，留个言好嘛 (oﾟvﾟ)ノ',
     ] # subtitle text, array
     hitokoto:  # 一言配置
       enable: true # Whether to enable hitokoto
@@ -379,7 +379,7 @@ footer:
   # Site statistics
   statistics: true # show site statistics or not (total articles, total words)
   # Footer message
-  customize: "你说的对，但是《原神》是由米哈游自主研发的一款全新开放世界冒险游戏。"
+  customize: "保持输入，更要保持输出 · 与 LLM 和情感计算同行"
   # ICP record number. See https://beian.miit.gov.cn/
   icp:
     enable: false # Whether to enable
