@@ -127,13 +127,31 @@ home_banner:
   # Home banner subtitle
   subtitle:
     text: [
-      '记录 LLM、情感计算与对话系统的学习笔记',
-      '读论文 · 拆技术报告 · 追开源热点',
-      '保持输入，更要保持输出 (ง •_•)ง',
-      '喜欢的话，留个言好嘛 (oﾟvﾟ)ノ',
+      '未经省察的人生不值得过。 —— 苏格拉底',
+      'The unexamined life is not worth living. — Socrates',
+      '我语言的界限，意味着我世界的界限。 —— 维特根斯坦',
+      'The limits of my language mean the limits of my world. — Wittgenstein',
+      '人是一根能思想的苇草。 —— 帕斯卡《思想录》',
+      '凡是过往，皆为序章。 —— 莎士比亚《暴风雨》',
+      'All models are wrong, but some are useful. — George Box',
+      '纸上得来终觉浅，绝知此事要躬行。 —— 陆游',
+      '博学之，审问之，慎思之，明辨之，笃行之。 —— 《礼记·中庸》',
+      '路漫漫其修远兮，吾将上下而求索。 —— 屈原《离骚》',
+      '学而不思则罔，思而不学则殆。 —— 《论语》',
+      '天行健，君子以自强不息。 —— 《周易》',
+      'Simplicity is the ultimate sophistication. — Leonardo da Vinci',
+      '我们都生活在阴沟里，但仍有人仰望星空。 —— 王尔德',
+      'We are all in the gutter, but some of us are looking at the stars. — Oscar Wilde',
+      'Life can only be understood backwards; but it must be lived forwards. — Kierkegaard',
+      '生活只能在回顾中被理解，却必须向前去生活。 —— 克尔凯郭尔',
+      '认识你自己。 —— 德尔斐神谕',
+      'The whole is greater than the sum of its parts. — Aristotle',
+      '我思，故我在。 —— 笛卡尔',
+      'Premature optimization is the root of all evil. — Donald Knuth',
+      '凡所有相，皆是虚妄。 —— 《金刚经》',
     ] # subtitle text, array
     hitokoto:  # 一言配置
-      enable: true # Whether to enable hitokoto
+      enable: false # Whether to enable hitokoto
       show_author: false # Whether to show author
       api: https://v1.hitokoto.cn # API URL, can add types, see https://developer.hitokoto.cn/sentence/#%E5%8F%A5%E5%AD%90%E7%B1%BB%E5%9E%8B-%E5%8F%82%E6%95%B0
     typing_speed: 50 # Typing speed (ms)
@@ -206,12 +224,9 @@ navbar:
     Categories: #取名随意
       icon: fa-solid fa-folder #图标
       path: /categories/ #链接
-    Links: 
+    Links:
       icon: fa-regular fa-link
       path: /links/
-    Github:
-      icon: fa-brands fa-github
-      path: https://github.com/sunzekai795/sunzekai795.github.io
   tags:
     Tags: #取名随意
         icon: fa-solid fa-tags #图标
