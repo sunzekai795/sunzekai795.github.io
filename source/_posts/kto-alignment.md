@@ -11,7 +11,7 @@ tags:
   - 前景理论
 ---
 
-> 本文是对 Ethayarajh et al., 2024 (ICML 2024) 论文《KTO: Model Alignment as Prospect Theoretic Optimization》的解读与经典回顾。原文见 arXiv:2402.01306（https://arxiv.org/abs/2402.01306）。文中只展开论文及业界公认的事实，不补充无法核实的具体数字。
+> 本文是对 Ethayarajh et al., 2024 (ICML 2024) 论文《KTO: Model Alignment as Prospect Theoretic Optimization》的解读与经典回顾。原文见 arXiv:2402.01306（<https://arxiv.org/abs/2402.01306>）。文中只展开论文及业界公认的事实，不补充无法核实的具体数字。
 
 ## TL;DR
 
@@ -79,4 +79,4 @@ KTO 的意义在于，它通过前景理论与 HALOs 框架，把对齐目标中
 
 局限方面需要保持审慎。二元标签虽然便宜，但相比成对比较所承载的信息更为粗粒度，「好/坏」的判定标准在不同标注来源之间可能并不一致；前景理论式效用函数也引入了关于人类感知形状的特定假设，这些假设在不同任务、不同人群上的适用程度仍有待具体衡量。此外，论文给出的结论是在其所考察的模型规模与设置下得到的，迁移到其他规模或场景时仍应结合实际验证。总体而言，KTO 拓宽了对齐信号的选择空间，是偏好优化方法演进中的一个重要参照点。
 
-> 延伸阅读：Ethayarajh et al., 2024, "KTO: Model Alignment as Prospect Theoretic Optimization", arXiv:2402.01306（https://arxiv.org/abs/2402.01306）。
+> 延伸阅读：Ethayarajh et al., 2024, "KTO: Model Alignment as Prospect Theoretic Optimization", arXiv:2402.01306（<https://arxiv.org/abs/2402.01306>）。

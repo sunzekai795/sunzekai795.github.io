@@ -12,7 +12,7 @@ tags:
   - FP8
 ---
 
-> 本文为技术报告深度解读笔记。原报告：*DeepSeek-V3 Technical Report*（DeepSeek-AI, 2024，arXiv:2412.19437，https://arxiv.org/abs/2412.19437 ）。文中数据均引用自原报告，转载请注明出处。
+> 本文为技术报告深度解读笔记。原报告：*DeepSeek-V3 Technical Report*（DeepSeek-AI, 2024，arXiv:2412.19437，<https://arxiv.org/abs/2412.19437> ）。文中数据均引用自原报告，转载请注明出处。
 
 ## TL;DR
 

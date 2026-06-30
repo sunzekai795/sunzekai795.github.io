@@ -81,4 +81,4 @@ LoRA 的意义在于，它用一个简洁的低秩假设，把大模型微调从
 
 局限方面也应客观看待：LoRA 建立在"权重更新量具有较低内在秩"这一假设之上，对某些任务而言，过低的秩可能不足以充分表达所需的适配能力，需要在秩的大小、插入位置等超参上做权衡；它改变的是权重增量的表达方式，而非引入新的知识来源，因此在需要大幅改变模型能力的场景中，仍需结合其他手段。总体而言，LoRA 在效率与效果之间取得了被业界广泛认可的平衡点。
 
-> 延伸阅读：Hu et al., LoRA: Low-Rank Adaptation of Large Language Models, arXiv:2106.09685（https://arxiv.org/abs/2106.09685）
+> 延伸阅读：Hu et al., LoRA: Low-Rank Adaptation of Large Language Models, arXiv:2106.09685（<https://arxiv.org/abs/2106.09685>）

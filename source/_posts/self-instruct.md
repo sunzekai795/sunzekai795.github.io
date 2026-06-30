@@ -11,7 +11,7 @@ tags:
   - 对齐
 ---
 
-> 本文是对 Wang et al., 2022 经典论文「Self-Instruct: Aligning Language Models with Self-Generated Instructions」的解读与回顾。原文见 arXiv:2212.10560（https://arxiv.org/abs/2212.10560）。文中所述事实以原论文为准，旨在梳理其核心思想与对后续对齐工作的影响。
+> 本文是对 Wang et al., 2022 经典论文「Self-Instruct: Aligning Language Models with Self-Generated Instructions」的解读与回顾。原文见 arXiv:2212.10560（<https://arxiv.org/abs/2212.10560>）。文中所述事实以原论文为准，旨在梳理其核心思想与对后续对齐工作的影响。
 
 ## TL;DR
 
@@ -80,4 +80,4 @@ Self-Instruct 的意义不止于它本身省了多少标注。它把一个理念
 
 局限同样值得正视。自生成数据的质量受限于生成模型自身的能力，模型不会的、答错的内容也可能被当作训练样本回流，存在错误自我放大的隐患；过滤与去重能缓解但难以根除这类噪声。此外，生成出的任务分布仍可能带有模型固有的偏好与盲区，多样性的提升有其边界。这些问题也正是后续在数据筛选、质量评估与混合人工监督等方向上持续改进的动因。
 
-> 延伸阅读：Self-Instruct 原论文 arXiv:2212.10560（https://arxiv.org/abs/2212.10560），以及受其启发的 Alpaca 等指令微调工作。
+> 延伸阅读：Self-Instruct 原论文 arXiv:2212.10560（<https://arxiv.org/abs/2212.10560>），以及受其启发的 Alpaca 等指令微调工作。

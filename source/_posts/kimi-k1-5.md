@@ -11,7 +11,7 @@ tags:
   - Moonshot
 ---
 
-> 本文是对月之暗面（Moonshot AI）Kimi 团队技术报告的阅读笔记与解读。原文：Kimi Team (Moonshot AI), 2025, *Kimi k1.5: Scaling Reinforcement Learning with LLMs*, arXiv:2501.12599（https://arxiv.org/abs/2501.12599）。下文仅就报告中已公开披露的内容进行梳理，未公开的精确指标不在讨论之列。
+> 本文是对月之暗面（Moonshot AI）Kimi 团队技术报告的阅读笔记与解读。原文：Kimi Team (Moonshot AI), 2025, *Kimi k1.5: Scaling Reinforcement Learning with LLMs*, arXiv:2501.12599（<https://arxiv.org/abs/2501.12599>）。下文仅就报告中已公开披露的内容进行梳理，未公开的精确指标不在讨论之列。
 
 ## TL;DR
 
@@ -85,4 +85,4 @@ flowchart TD
 
 局限方面，长上下文 RL 对算力与工程基础设施的要求较高，复现门槛不低；long2short 在迁移过程中如何权衡"短输出"与"推理质量"之间的损失，仍是值得持续观察的问题。此外，推理模型的能力评估高度依赖基准设计，单一榜单结论需结合更广泛的任务来审视。总体而言，这份报告更大的价值在于把"如何规模化地用 RL 训练推理"的工程路径公开化，为后续研究提供了可对照的参照系。
 
-> 延伸阅读：Kimi Team (Moonshot AI), *Kimi k1.5: Scaling Reinforcement Learning with LLMs*, arXiv:2501.12599（https://arxiv.org/abs/2501.12599）。
+> 延伸阅读：Kimi Team (Moonshot AI), *Kimi k1.5: Scaling Reinforcement Learning with LLMs*, arXiv:2501.12599（<https://arxiv.org/abs/2501.12599>）。

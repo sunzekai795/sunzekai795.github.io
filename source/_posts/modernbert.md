@@ -11,7 +11,7 @@ tags:
   - 检索
 ---
 
-> 本文是对 Warner et al., 2024, 「Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder (ModernBERT)」(arXiv:2412.13663，https://arxiv.org/abs/2412.13663) 的阅读笔记与解读，内容以原论文为准，如有偏差以原文为准。
+> 本文是对 Warner et al., 2024, 「Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder (ModernBERT)」(arXiv:2412.13663，<https://arxiv.org/abs/2412.13663>) 的阅读笔记与解读，内容以原论文为准，如有偏差以原文为准。
 
 ## TL;DR
 
@@ -86,4 +86,4 @@ ModernBERT 最重要的信号，是在解码器主导话语权的当下，重新
 
 同时也应客观看待其边界：ModernBERT 解决的是「理解与表示」类问题，并不替代生成式模型在开放式文本生成上的能力；它本质上是把已有成熟技术组合并工程化，而非提出全新的建模范式。对于具体任务上的表现，建议以原论文给出的设置与结果为准，并结合自身场景做评估。
 
-> 延伸阅读：Warner et al., 2024, 「Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder (ModernBERT)」，arXiv:2412.13663，https://arxiv.org/abs/2412.13663
+> 延伸阅读：Warner et al., 2024, 「Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder (ModernBERT)」，arXiv:2412.13663，<https://arxiv.org/abs/2412.13663>

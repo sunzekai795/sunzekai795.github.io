@@ -11,7 +11,7 @@ tags:
   - 推理
 ---
 
-> 本文回顾的是 Shinn 等人于 2023 年发表、并被 NeurIPS 2023 收录的经典工作《Reflexion: Language Agents with Verbal Reinforcement Learning》（arXiv:2303.11366，链接：https://arxiv.org/abs/2303.11366）。它是「自我反思 / 自我改进」型语言智能体范式的代表作之一，至今仍被广泛引用与复现。
+> 本文回顾的是 Shinn 等人于 2023 年发表、并被 NeurIPS 2023 收录的经典工作《Reflexion: Language Agents with Verbal Reinforcement Learning》（arXiv:2303.11366，链接：<https://arxiv.org/abs/2303.11366>）。它是「自我反思 / 自我改进」型语言智能体范式的代表作之一，至今仍被广泛引用与复现。
 
 ## TL;DR
 
@@ -71,4 +71,4 @@ Reflexion 的意义在于，它清晰地展示了一条不依赖参数更新、�
 
 其局限同样需要客观看待。该方法的效果依赖于对尝试结果是否能够获得可靠的成败或质量判断；当任务缺乏明确的评估信号时，反思的质量与方向难以保证。反思本身由语言模型生成，可能不准确甚至产生误导，进而影响后续尝试。此外，把经验保存在提示中的做法受上下文长度约束，随着尝试与记忆增多，如何取舍与组织这些经验也成为现实挑战。这些都是该范式在实际应用中需要权衡的方面。
 
-> 延伸阅读：Shinn et al., 2023, 《Reflexion: Language Agents with Verbal Reinforcement Learning》，arXiv:2303.11366（https://arxiv.org/abs/2303.11366）。
+> 延伸阅读：Shinn et al., 2023, 《Reflexion: Language Agents with Verbal Reinforcement Learning》，arXiv:2303.11366（<https://arxiv.org/abs/2303.11366>）。

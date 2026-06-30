@@ -11,7 +11,7 @@ tags:
   - 开源模型
 ---
 
-> 本文是对谷歌 DeepMind 团队技术报告的阅读笔记与解读。原文出处：Gemma Team, Google DeepMind, 2025, 「Gemma 3 Technical Report」, arXiv:2503.19786（https://arxiv.org/abs/2503.19786）。文中观点与事实均以原报告为准。
+> 本文是对谷歌 DeepMind 团队技术报告的阅读笔记与解读。原文出处：Gemma Team, Google DeepMind, 2025, 「Gemma 3 Technical Report」, arXiv:2503.19786（<https://arxiv.org/abs/2503.19786>）。文中观点与事实均以原报告为准。
 
 ## TL;DR
 
@@ -76,4 +76,4 @@ flowchart TD
 
 局限方面，轻量级定位本身意味着在绝对能力上与体量更大的前沿模型仍可能存在差距；多模态目前是「图文输入、文本输出」的形态，而非任意模态间的双向生成。此外，模型在不同语言、不同任务上的实际表现，需要结合具体评测来判断，本文不对未公开的精确分数作出断言。总体而言，Gemma 3 体现的是在「轻量可部署」这一约束下，尽可能补齐前沿能力的工程路线。
 
-> 延伸阅读：Gemma 3 Technical Report, arXiv:2503.19786（https://arxiv.org/abs/2503.19786）
+> 延伸阅读：Gemma 3 Technical Report, arXiv:2503.19786（<https://arxiv.org/abs/2503.19786>）

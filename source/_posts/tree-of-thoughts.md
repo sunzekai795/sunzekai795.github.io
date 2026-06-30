@@ -11,7 +11,7 @@ tags:
   - 规划
 ---
 
-> 本文是对经典论文的解读与回顾：Yao et al., 2023（NeurIPS 2023），《Tree of Thoughts: Deliberate Problem Solving with Large Language Models》，arXiv:2305.10601（https://arxiv.org/abs/2305.10601）。旨在梳理 ToT 的动机、核心思想与意义，便于理解其在 LLM 推理中的位置。
+> 本文是对经典论文的解读与回顾：Yao et al., 2023（NeurIPS 2023），《Tree of Thoughts: Deliberate Problem Solving with Large Language Models》，arXiv:2305.10601（<https://arxiv.org/abs/2305.10601>）。旨在梳理 ToT 的动机、核心思想与意义，便于理解其在 LLM 推理中的位置。
 
 ## TL;DR
 
@@ -77,4 +77,4 @@ ToT 的意义在于，它把 LLM 的「推理」从单链拓展为「带搜索�
 
 局限同样值得正视。ToT 引入的多分支生成与逐节点评估会带来更高的计算与调用开销，对于本就能用简单推理解决的问题，这种代价并不划算。此外，搜索的有效性高度依赖模型自我评估的可靠性：若模型对分支前景的判断出现系统性偏差，搜索就可能被引向错误方向。因此，ToT 更适合那些「探索价值」明显高于「探索成本」的复杂规划类任务，而非作为所有推理场景的通用替代。
 
-> 延伸阅读：Yao et al., 2023, 《Tree of Thoughts: Deliberate Problem Solving with Large Language Models》，arXiv:2305.10601（https://arxiv.org/abs/2305.10601）。
+> 延伸阅读：Yao et al., 2023, 《Tree of Thoughts: Deliberate Problem Solving with Large Language Models》，arXiv:2305.10601（<https://arxiv.org/abs/2305.10601>）。

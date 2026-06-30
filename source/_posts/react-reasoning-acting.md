@@ -11,7 +11,7 @@ tags:
   - 推理
 ---
 
-> 本文是对 Yao et al., 2022（ICLR 2023）论文《ReAct: Synergizing Reasoning and Acting in Language Models》的经典回顾与解读。原文见 arXiv:2210.03629（https://arxiv.org/abs/2210.03629）。文中观点与事实均以原论文为准。
+> 本文是对 Yao et al., 2022（ICLR 2023）论文《ReAct: Synergizing Reasoning and Acting in Language Models》的经典回顾与解读。原文见 arXiv:2210.03629（<https://arxiv.org/abs/2210.03629>）。文中观点与事实均以原论文为准。
 
 ## TL;DR
 
@@ -79,4 +79,4 @@ ReAct 的意义在于，它用一种简洁的提示结构，把推理与行动�
 
 局限同样需要客观看待。ReAct 的效果依赖外部工具与信息源的质量：如果检索返回的内容本身有误或不相关，错误同样会传导进最终答案。多轮的「思考—行动—观察」会带来更长的交互轨迹，意味着更多的调用与上下文开销。此外，行动的选择与推理的质量仍受底层模型能力约束，并不能自动消除所有幻觉。理解这些边界，有助于在实际系统中合理设计工具集、检索质量控制与终止条件。
 
-> 延伸阅读：ReAct: Synergizing Reasoning and Acting in Language Models, arXiv:2210.03629（https://arxiv.org/abs/2210.03629）
+> 延伸阅读：ReAct: Synergizing Reasoning and Acting in Language Models, arXiv:2210.03629（<https://arxiv.org/abs/2210.03629>）

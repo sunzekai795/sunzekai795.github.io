@@ -11,7 +11,7 @@ tags:
   - 投票
 ---
 
-> 本文是对 Wang et al., 2022（ICLR 2023）《Self-Consistency Improves Chain of Thought Reasoning in Language Models》的阅读笔记与解读。原文见 arXiv:2203.11171（https://arxiv.org/abs/2203.11171）。文中事实以原论文为准，解读部分为笔记整理。
+> 本文是对 Wang et al., 2022（ICLR 2023）《Self-Consistency Improves Chain of Thought Reasoning in Language Models》的阅读笔记与解读。原文见 arXiv:2203.11171（<https://arxiv.org/abs/2203.11171>）。文中事实以原论文为准，解读部分为笔记整理。
 
 ## TL;DR
 
@@ -81,4 +81,4 @@ flowchart TD
 
 局限同样需要正视。其一，自洽性以**多次采样**为代价，推理成本随采样数增加而上升，在对延迟或算力敏感的场景中需要权衡。其二，它依赖于「最终答案可被抽取并比较」的任务结构，更适合答案形式相对明确、便于投票的问题；对于开放式生成等难以做答案聚合的任务，直接套用并不自然。其三，多数投票的前提是正确路径在采样中占据相对多数，若模型对某类问题存在系统性偏差，投票也可能稳定地投向错误答案。
 
-> 延伸阅读：Wang et al., 2022, 《Self-Consistency Improves Chain of Thought Reasoning in Language Models》，arXiv:2203.11171（https://arxiv.org/abs/2203.11171）。
+> 延伸阅读：Wang et al., 2022, 《Self-Consistency Improves Chain of Thought Reasoning in Language Models》，arXiv:2203.11171（<https://arxiv.org/abs/2203.11171>）。

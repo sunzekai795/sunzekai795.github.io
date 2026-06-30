@@ -11,7 +11,7 @@ tags:
   - LLM评测
 ---
 
-> 本文是对 Paech, 2023, *EQ-Bench: An Emotional Intelligence Benchmark for Large Language Models* 的阅读笔记与解读。原文见 arXiv:2312.06281（https://arxiv.org/abs/2312.06281）。文中观点以原始论文及其后续工作（排行榜见 eqbench.com）为准，本文仅作梳理。
+> 本文是对 Paech, 2023, *EQ-Bench: An Emotional Intelligence Benchmark for Large Language Models* 的阅读笔记与解读。原文见 arXiv:2312.06281（<https://arxiv.org/abs/2312.06281>）。文中观点以原始论文及其后续工作（排行榜见 eqbench.com）为准，本文仅作梳理。
 
 ## TL;DR
 

@@ -11,7 +11,7 @@ tags:
   - 人类偏好
 ---
 
-> 本文是对 Chiang et al. (LMSYS), 2024, *Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference*（arXiv:2403.04132，https://arxiv.org/abs/2403.04132）的阅读笔记与解读。文中观点与事实以原论文为准，本文仅做梳理。
+> 本文是对 Chiang et al. (LMSYS), 2024, *Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference*（arXiv:2403.04132，<https://arxiv.org/abs/2403.04132>）的阅读笔记与解读。文中观点与事实以原论文为准，本文仅做梳理。
 
 ## TL;DR
 
@@ -82,4 +82,4 @@ Chatbot Arena 的意义在于，它把评测从封闭题库带向开放的真实
 
 与此同时，基于人类偏好的评测也有其固有边界：投票反映的是主观偏好，可能受表达风格、长度、措辞等因素影响，未必完全等同于事实正确性或专业性；用户群体与提问分布会影响结果的代表性；开放数据也对异常投票的检测与治理提出持续要求。这些方面在论文中均有相应讨论，也提示使用者应将榜单视为多维评测中的一个视角，而非唯一标准。
 
-> 延伸阅读：Chatbot Arena 原论文 arXiv:2403.04132（https://arxiv.org/abs/2403.04132）。
+> 延伸阅读：Chatbot Arena 原论文 arXiv:2403.04132（<https://arxiv.org/abs/2403.04132>）。

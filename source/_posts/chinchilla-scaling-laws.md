@@ -11,7 +11,7 @@ tags:
   - DeepMind
 ---
 
-> 本文是对经典论文的解读与回顾。原文：Hoffmann et al. (DeepMind), 2022, *Training Compute-Optimal Large Language Models*，arXiv:2203.15556（https://arxiv.org/abs/2203.15556）。文中事实以原论文公开结论为准，定性概括，未引入无法核实的细节。
+> 本文是对经典论文的解读与回顾。原文：Hoffmann et al. (DeepMind), 2022, *Training Compute-Optimal Large Language Models*，arXiv:2203.15556（<https://arxiv.org/abs/2203.15556>）。文中事实以原论文公开结论为准，定性概括，未引入无法核实的细节。
 
 ## TL;DR
 
@@ -81,4 +81,4 @@ Chinchilla 的结论很快超越了单篇论文的范围，成为业界讨论"�
 
 从局限上看，计算最优定律关注的是"在给定训练算力下如何取得最优"，但实际部署中还需要考虑推理成本——一个更小、数据更充分的模型在推理时通常更经济，这一点会进一步影响实践中的配比选择。此外，这类缩放规律是在特定数据与设定下拟合得到的经验性结论，外推到差异较大的数据分布、模型结构或训练条件时需要谨慎对待；随着训练范式与数据条件的演进，最优配比也可能随之变化。
 
-> 延伸阅读：Hoffmann et al., *Training Compute-Optimal Large Language Models*，arXiv:2203.15556（https://arxiv.org/abs/2203.15556）
+> 延伸阅读：Hoffmann et al., *Training Compute-Optimal Large Language Models*，arXiv:2203.15556（<https://arxiv.org/abs/2203.15556>）

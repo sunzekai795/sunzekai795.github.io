@@ -12,7 +12,7 @@ tags:
   - 情感支持对话
 ---
 
-> 本文为方向综述性深度笔记，串联共情回复生成（Empathetic Response Generation）领域的若干代表性工作。核心论文：*Towards Empathetic Open-domain Conversation Models: a New Benchmark and Dataset*（Rashkin et al., ACL 2019，arXiv:1811.00207，https://arxiv.org/abs/1811.00207 ）；并涉及 MoEL、MIME、EmpDG、CEM、ESConv 等后续工作。文中数据引自各原论文。
+> 本文为方向综述性深度笔记，串联共情回复生成（Empathetic Response Generation）领域的若干代表性工作。核心论文：*Towards Empathetic Open-domain Conversation Models: a New Benchmark and Dataset*（Rashkin et al., ACL 2019，arXiv:1811.00207，<https://arxiv.org/abs/1811.00207> ）；并涉及 MoEL、MIME、EmpDG、CEM、ESConv 等后续工作。文中数据引自各原论文。
 
 ## TL;DR
 

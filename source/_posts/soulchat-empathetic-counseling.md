@@ -11,7 +11,7 @@ tags:
   - 情感计算
 ---
 
-> 本文是对 Chen et al.（华南理工大学 SCUT），2023，《SoulChat: Improving LLMs' Empathy, Listening, and Comfort Abilities through Fine-tuning with Multi-turn Empathy Conversations》（Findings of EMNLP 2023，arXiv:2311.00273，https://arxiv.org/abs/2311.00273）的阅读笔记与解读。文中事实以原论文为准，本文仅做概括性整理。
+> 本文是对 Chen et al.（华南理工大学 SCUT），2023，《SoulChat: Improving LLMs' Empathy, Listening, and Comfort Abilities through Fine-tuning with Multi-turn Empathy Conversations》（Findings of EMNLP 2023，arXiv:2311.00273，<https://arxiv.org/abs/2311.00273>）的阅读笔记与解读。文中事实以原论文为准，本文仅做概括性整理。
 
 ## TL;DR
 
@@ -70,4 +70,4 @@ SoulChat 的意义在于，它把「共情、倾听、安慰」这些过去较�
 
 总体而言，SoulChat 把研究视线从「让模型更聪明」转向「让模型更懂得如何陪伴」，这一取向对情感计算与心理健康对话的后续工作具有参考价值，但其应用始终应在明确的伦理与安全前提下进行。
 
-> 延伸阅读：SoulChat 原论文 arXiv:2311.00273（https://arxiv.org/abs/2311.00273）；以及情感支持对话方向的相关基础工作 EmpatheticDialogues 与 ESConv。
+> 延伸阅读：SoulChat 原论文 arXiv:2311.00273（<https://arxiv.org/abs/2311.00273>）；以及情感支持对话方向的相关基础工作 EmpatheticDialogues 与 ESConv。

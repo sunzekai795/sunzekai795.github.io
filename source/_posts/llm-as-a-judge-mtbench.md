@@ -11,7 +11,7 @@ tags:
   - Chatbot Arena
 ---
 
-> 本文为论文深度阅读笔记。原文：*Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena*（Zheng et al., NeurIPS 2023 Datasets and Benchmarks Track，arXiv:2306.05685，https://arxiv.org/abs/2306.05685 ）。文中数据引自原论文，转载请注明出处。
+> 本文为论文深度阅读笔记。原文：*Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena*（Zheng et al., NeurIPS 2023 Datasets and Benchmarks Track，arXiv:2306.05685，<https://arxiv.org/abs/2306.05685> ）。文中数据引自原论文，转载请注明出处。
 
 ## TL;DR
 

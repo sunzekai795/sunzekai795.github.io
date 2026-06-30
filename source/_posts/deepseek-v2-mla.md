@@ -11,7 +11,7 @@ tags:
   - KV Cache
 ---
 
-> 本文为经典回顾，解读 DeepSeek-AI 于 2024 年发布的技术报告《DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model》（arXiv:2405.04434，链接：https://arxiv.org/abs/2405.04434）。这篇报告首次提出了后来被 DeepSeek-V3 沿用的两个关键组件——MLA 与 DeepSeekMoE，理解它有助于厘清 V3 中相关设计的来龙去脉。
+> 本文为经典回顾，解读 DeepSeek-AI 于 2024 年发布的技术报告《DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model》（arXiv:2405.04434，链接：<https://arxiv.org/abs/2405.04434>）。这篇报告首次提出了后来被 DeepSeek-V3 沿用的两个关键组件——MLA 与 DeepSeekMoE，理解它有助于厘清 V3 中相关设计的来龙去脉。
 
 ## TL;DR
 
@@ -81,4 +81,4 @@ flowchart LR
 
 就局限而言，低秩压缩本质上是在缓存大小与信息保留之间做权衡，潜在向量的维度与恢复方式会影响最终效果；细粒度专家与共享专家也涉及路由稳定性、负载均衡等工程问题。这些都需要结合具体实现与评测来理解，而非一概而论。要获得准确的结构细节与量化结论，建议回到原始报告对照阅读。
 
-> 延伸阅读：DeepSeek-AI, 2024, "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model", arXiv:2405.04434（https://arxiv.org/abs/2405.04434）
+> 延伸阅读：DeepSeek-AI, 2024, "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model", arXiv:2405.04434（<https://arxiv.org/abs/2405.04434>）

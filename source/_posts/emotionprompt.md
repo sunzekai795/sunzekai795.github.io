@@ -11,7 +11,7 @@ tags:
   - 情绪刺激
 ---
 
-> 本文是对 Li, Wang et al. 2023 年论文《Large Language Models Understand and Can be Enhanced by Emotional Stimuli》的阅读笔记与解读，原文见 arXiv:2307.11760（https://arxiv.org/abs/2307.11760）。下文中的方法描述与实验结论均来自原论文。
+> 本文是对 Li, Wang et al. 2023 年论文《Large Language Models Understand and Can be Enhanced by Emotional Stimuli》的阅读笔记与解读，原文见 arXiv:2307.11760（<https://arxiv.org/abs/2307.11760>）。下文中的方法描述与实验结论均来自原论文。
 
 ## TL;DR
 
@@ -85,4 +85,4 @@ EmotionPrompt 以一种轻巧而新颖的方式，展示了大模型对情绪化
 
 与此同时，这类方法也存在需要审慎看待的方面。情绪刺激语的效果可能因任务类型、模型以及具体表述而有所不同，其背后的作用机制仍有待更深入的解释；同时，依赖情绪化措辞来提升表现，也引出了关于模型行为可解释性与可控性的进一步讨论。总体而言，EmotionPrompt 提供的更多是一个富有启发性的视角，而非一劳永逸的通用方案，后续仍有广阔的探索空间。
 
-> 延伸阅读：Large Language Models Understand and Can be Enhanced by Emotional Stimuli, arXiv:2307.11760（https://arxiv.org/abs/2307.11760）
+> 延伸阅读：Large Language Models Understand and Can be Enhanced by Emotional Stimuli, arXiv:2307.11760（<https://arxiv.org/abs/2307.11760>）

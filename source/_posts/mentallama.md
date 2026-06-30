@@ -11,7 +11,7 @@ tags:
   - 情感计算
 ---
 
-> 本文是对 Yang et al. 在 WWW 2024 发表的论文《MentaLLaMA: Interpretable Mental Health Analysis on Social Media with Large Language Models》(arXiv:2309.13567，https://arxiv.org/abs/2309.13567) 的阅读笔记与解读，仅作学习记录，观点与细节请以原文为准。
+> 本文是对 Yang et al. 在 WWW 2024 发表的论文《MentaLLaMA: Interpretable Mental Health Analysis on Social Media with Large Language Models》(arXiv:2309.13567，<https://arxiv.org/abs/2309.13567>) 的阅读笔记与解读，仅作学习记录，观点与细节请以原文为准。
 
 ## TL;DR
 
@@ -79,4 +79,4 @@ MentaLLaMA 试图同时回答两个问题：检测得准不准，解释得好不
 
 局限与边界同样需要被清晰认识。最重要的一点是伦理与安全：心理健康涉及个体的真实福祉，此类系统给出的判断与解释，无论看起来多么合理，都不能替代专业人员的诊断，也不能替代正规的心理援助与危机干预。社交媒体文本本身存在噪声、语境缺失与表达多样性，模型生成的解释也可能存在偏差或过度自信的风险。因此，更稳妥的定位是辅助研究与初步筛查的工具，而非决策主体；在任何面向真实人群的应用中，都应配合专业人员与明确的安全机制使用。
 
-> 延伸阅读：MentaLLaMA: Interpretable Mental Health Analysis on Social Media with Large Language Models (arXiv:2309.13567，https://arxiv.org/abs/2309.13567)
+> 延伸阅读：MentaLLaMA: Interpretable Mental Health Analysis on Social Media with Large Language Models (arXiv:2309.13567，<https://arxiv.org/abs/2309.13567>)

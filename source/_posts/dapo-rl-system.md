@@ -11,7 +11,7 @@ tags:
   - 开源
 ---
 
-> 本文是对 ByteDance Seed 与清华大学合作论文《DAPO: An Open-Source LLM Reinforcement Learning System at Scale》的阅读笔记与解读。原文见 arXiv:2503.14476（https://arxiv.org/abs/2503.14476）。文中观点与数据均以原论文为准，本文仅做梳理与延伸。
+> 本文是对 ByteDance Seed 与清华大学合作论文《DAPO: An Open-Source LLM Reinforcement Learning System at Scale》的阅读笔记与解读。原文见 arXiv:2503.14476（<https://arxiv.org/abs/2503.14476>）。文中观点与数据均以原论文为准，本文仅做梳理与延伸。
 
 ## TL;DR
 
@@ -73,4 +73,4 @@ DAPO 的价值，很大程度上来自它对「开放」的坚持。在推理 RL
 
 需要客观看待的是，论文中的方法与结论是在特定基座模型、特定任务（以数学竞赛题为代表）和特定训练设定下得到的；其在其他模型规模、其他类型推理任务或更广泛对齐目标上的表现，仍需进一步验证。强化学习训练对超参数、数据质量与奖励设计较为敏感，迁移到新场景时往往需要重新调校。这些都属于该方向尚待持续探索的部分。
 
-> 延伸阅读：arXiv:2503.14476《DAPO: An Open-Source LLM Reinforcement Learning System at Scale》（https://arxiv.org/abs/2503.14476）。
+> 延伸阅读：arXiv:2503.14476《DAPO: An Open-Source LLM Reinforcement Learning System at Scale》（<https://arxiv.org/abs/2503.14476>）。

@@ -11,7 +11,7 @@ tags:
   - OpenAI
 ---
 
-> 本文是对 OpenAI 2024 年公开材料《Learning to Reason with LLMs》（官方博客与配套系统卡，非完整技术论文）的阅读与解读。需特别说明：o1 至今没有公开完整的技术报告，下文仅围绕官方公开披露过的、业界广为人知的信息展开，训练细节与具体内部机制官方并未公开。原文：https://openai.com/index/learning-to-reason-with-llms/
+> 本文是对 OpenAI 2024 年公开材料《Learning to Reason with LLMs》（官方博客与配套系统卡，非完整技术论文）的阅读与解读。需特别说明：o1 至今没有公开完整的技术报告，下文仅围绕官方公开披露过的、业界广为人知的信息展开，训练细节与具体内部机制官方并未公开。原文：<https://openai.com/index/learning-to-reason-with-llms/>
 
 ## TL;DR
 

@@ -11,7 +11,7 @@ tags:
   - 经典
 ---
 
-> 本文是对经典论文的回顾与解读。论文：Leviathan et al., 2022 (ICML 2023), "Fast Inference from Transformers via Speculative Decoding", arXiv:2211.17192（https://arxiv.org/abs/2211.17192）。文中事实以原论文及公认背景为准，解读如有偏差请以原文为准。
+> 本文是对经典论文的回顾与解读。论文：Leviathan et al., 2022 (ICML 2023), "Fast Inference from Transformers via Speculative Decoding", arXiv:2211.17192（<https://arxiv.org/abs/2211.17192>）。文中事实以原论文及公认背景为准，解读如有偏差请以原文为准。
 
 ## TL;DR
 
@@ -79,4 +79,4 @@ flowchart LR
 
 局限同样清晰：方法依赖一个行为接近目标模型的草稿来源，草稿质量不佳或场景本身已是算力受限（如超大批量）时，收益可能有限甚至为负；同时引入草稿模型也带来了额外的工程与显存复杂度。如何更低成本地获得高接受率的草稿，是这条技术路线持续演进的核心问题。
 
-> 延伸阅读：Leviathan et al., "Fast Inference from Transformers via Speculative Decoding", arXiv:2211.17192（https://arxiv.org/abs/2211.17192）。
+> 延伸阅读：Leviathan et al., "Fast Inference from Transformers via Speculative Decoding", arXiv:2211.17192（<https://arxiv.org/abs/2211.17192>）。

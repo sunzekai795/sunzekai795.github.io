@@ -11,7 +11,7 @@ tags:
   - GRPO
 ---
 
-> 本文是对 DeepSeek-AI 技术报告《DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning》(2025, arXiv:2501.12948, https://arxiv.org/abs/2501.12948) 的阅读笔记与解读，仅作学习记录，具体细节请以原文为准。
+> 本文是对 DeepSeek-AI 技术报告《DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning》(2025, arXiv:2501.12948, <https://arxiv.org/abs/2501.12948>) 的阅读笔记与解读，仅作学习记录，具体细节请以原文为准。
 
 ## TL;DR
 
@@ -73,4 +73,4 @@ DeepSeek-R1 的工作提供了一条相对清晰且公开的思路：以可验�
 
 需要客观看待的是几点局限与边界。其一，纯强化学习路线虽然能让推理行为涌现，但伴随可读性与语言混杂等问题，需要额外环节弥补。其二，「可验证正确性」奖励天然更适用于数学、代码等有明确判定标准的任务，对于难以自动验证答案的开放式问题，奖励设计仍是挑战。其三，蒸馏能让小模型获益，但小模型与大模型之间在能力上仍存在差距。这些边界既说明了方法的适用范围，也指向了后续值得继续探索的方向。
 
-> 延伸阅读：DeepSeek-R1 技术报告原文 arXiv:2501.12948（https://arxiv.org/abs/2501.12948）
+> 延伸阅读：DeepSeek-R1 技术报告原文 arXiv:2501.12948（<https://arxiv.org/abs/2501.12948>）

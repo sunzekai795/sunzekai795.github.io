@@ -11,7 +11,7 @@ tags:
   - 显存
 ---
 
-> 本文是对 Dao et al., 2022（NeurIPS 2022）"FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness" 的经典回顾，arXiv:2205.14135（https://arxiv.org/abs/2205.14135）。原文从 GPU 显存层级出发，重新审视注意力计算的瓶颈所在。
+> 本文是对 Dao et al., 2022（NeurIPS 2022）"FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness" 的经典回顾，arXiv:2205.14135（<https://arxiv.org/abs/2205.14135>）。原文从 GPU 显存层级出发，重新审视注意力计算的瓶颈所在。
 
 ## TL;DR
 
@@ -68,4 +68,4 @@ FlashAttention 的价值在于，它没有把注意力当作一个纯粹的数�
 
 局限方面，FlashAttention 的实现与具体的硬件存储层级和并行结构紧密相关，因此往往需要针对不同硬件进行适配与调优，这也是后续版本不断迭代的原因之一。同时，它解决的是「精确注意力如何算得更省更快」，对于注意力本身随序列长度增长的计算复杂度，它通过减少 IO 与显存占用来缓解压力，而非改变其根本的复杂度量级。
 
-> 延伸阅读：FlashAttention 原文 arXiv:2205.14135（https://arxiv.org/abs/2205.14135），以及后续的 FlashAttention-2、FlashAttention-3。
+> 延伸阅读：FlashAttention 原文 arXiv:2205.14135（<https://arxiv.org/abs/2205.14135>），以及后续的 FlashAttention-2、FlashAttention-3。

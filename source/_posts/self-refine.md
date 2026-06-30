@@ -11,7 +11,7 @@ tags:
   - 反馈
 ---
 
-> 本文是对 Madaan et al., 2023（NeurIPS 2023）《Self-Refine: Iterative Refinement with Self-Feedback》的阅读笔记与解读。原文见 arXiv:2303.17651（https://arxiv.org/abs/2303.17651）。文中事实以原文为准，定性概括处为笔者的整理，不代表对具体数字的精确复述。
+> 本文是对 Madaan et al., 2023（NeurIPS 2023）《Self-Refine: Iterative Refinement with Self-Feedback》的阅读笔记与解读。原文见 arXiv:2303.17651（<https://arxiv.org/abs/2303.17651>）。文中事实以原文为准，定性概括处为笔者的整理，不代表对具体数字的精确复述。
 
 ## TL;DR
 
@@ -87,4 +87,4 @@ Self-Refine 的意义在于，它用极低的工程代价，把「迭代打磨�
 
 局限同样明确。其一，方法的上限受模型自身能力约束——如果模型识别不出某类错误，自我反馈就难以纠正，甚至可能在反复修订中引入新问题。其二，迭代带来的推理成本不可忽视。其三，「自我评判」存在系统性盲区，模型对自己输出的判断未必可靠，在需要严格正确性的任务上仍应辅以外部验证。因此，Self-Refine 更适合定位为一种通用、易用的质量增强手段，而非对外部监督或验证的替代。
 
-> 延伸阅读：Madaan et al., 《Self-Refine: Iterative Refinement with Self-Feedback》，arXiv:2303.17651（https://arxiv.org/abs/2303.17651）。
+> 延伸阅读：Madaan et al., 《Self-Refine: Iterative Refinement with Self-Feedback》，arXiv:2303.17651（<https://arxiv.org/abs/2303.17651>）。

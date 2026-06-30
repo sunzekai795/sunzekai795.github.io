@@ -11,7 +11,7 @@ tags:
   - 后训练对齐
 ---
 
-> 本文是对 SimPO 论文的阅读笔记与解读。原文：Meng, Xia, Chen, 2024, *"SimPO: Simple Preference Optimization with a Reference-Free Reward"*，arXiv:2405.14734（https://arxiv.org/abs/2405.14734）。文中观点以论文为准，解读部分仅作概括性梳理。
+> 本文是对 SimPO 论文的阅读笔记与解读。原文：Meng, Xia, Chen, 2024, *"SimPO: Simple Preference Optimization with a Reference-Free Reward"*，arXiv:2405.14734（<https://arxiv.org/abs/2405.14734>）。文中观点以论文为准，解读部分仅作概括性梳理。
 
 ## TL;DR
 

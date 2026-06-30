@@ -11,7 +11,7 @@ tags:
   - 后训练对齐
 ---
 
-> 本文是对 Shao et al., 2024 论文《DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models》的阅读笔记与解读。原文见 arXiv:2402.03300（https://arxiv.org/abs/2402.03300）。文中观点以原论文为准，笔记仅作梳理之用。
+> 本文是对 Shao et al., 2024 论文《DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models》的阅读笔记与解读。原文见 arXiv:2402.03300（<https://arxiv.org/abs/2402.03300>）。文中观点以原论文为准，笔记仅作梳理之用。
 
 ## TL;DR
 
@@ -74,4 +74,4 @@ GRPO 的价值在于以较小的工程与计算代价，实现了 PPO 风格的�
 
 需要客观看待的是，组内相对优势依赖于对每个问题采样足够多的回答，采样组的规模与质量会影响优势估计的方差；在奖励信号稀疏或难以验证的开放式任务上，缺少逐步价值估计也可能带来挑战。具体的设计取舍与适用边界，应以原论文及后续公开工作的结论为准。
 
-> 延伸阅读：DeepSeekMath 原文 arXiv:2402.03300（https://arxiv.org/abs/2402.03300），以及后续采用 GRPO 的 DeepSeek-R1 相关工作。
+> 延伸阅读：DeepSeekMath 原文 arXiv:2402.03300（<https://arxiv.org/abs/2402.03300>），以及后续采用 GRPO 的 DeepSeek-R1 相关工作。

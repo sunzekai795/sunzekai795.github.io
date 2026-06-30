@@ -11,7 +11,7 @@ tags:
   - 架构
 ---
 
-> 本文是对 Vaswani et al. 经典论文《Attention Is All You Need》（NeurIPS 2017）的经典回顾与解读。原文出处：arXiv:1706.03762（https://arxiv.org/abs/1706.03762）。本文仅就论文提出的核心思想与公认背景展开梳理。
+> 本文是对 Vaswani et al. 经典论文《Attention Is All You Need》（NeurIPS 2017）的经典回顾与解读。原文出处：arXiv:1706.03762（<https://arxiv.org/abs/1706.03762>）。本文仅就论文提出的核心思想与公认背景展开梳理。
 
 ## TL;DR
 
@@ -68,4 +68,4 @@ Transformer 的价值不仅在于在当时的序列任务上取得了优秀表�
 
 局限层面也应客观看待：标准自注意力需要在序列内部的位置之间两两计算关联，随着序列变长，计算与内存开销增长较快，这是处理长序列时的现实约束；同时，注意力本身不含顺序感，需要依赖额外的位置信息设计。围绕这些问题，后续研究提出了大量改进思路。但无论改进方向如何演变，论文确立的核心思想——以注意力作为序列建模的主干——始终是这一脉络的共同起点。
 
-> 延伸阅读：Vaswani et al., 《Attention Is All You Need》, arXiv:1706.03762（https://arxiv.org/abs/1706.03762）
+> 延伸阅读：Vaswani et al., 《Attention Is All You Need》, arXiv:1706.03762（<https://arxiv.org/abs/1706.03762>）

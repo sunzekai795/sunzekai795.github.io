@@ -11,7 +11,7 @@ tags:
   - 幻觉
 ---
 
-> 本文是对经典论文的解读与回顾。原文：Lewis et al. (FAIR), 2020 (NeurIPS 2020)，《Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks》，arXiv:2005.11401（https://arxiv.org/abs/2005.11401）。RAG 一词由此而来，也奠定了如今「大模型 + 知识库 / 向量数据库」应用范式的基础。
+> 本文是对经典论文的解读与回顾。原文：Lewis et al. (FAIR), 2020 (NeurIPS 2020)，《Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks》，arXiv:2005.11401（<https://arxiv.org/abs/2005.11401>）。RAG 一词由此而来，也奠定了如今「大模型 + 知识库 / 向量数据库」应用范式的基础。
 
 ## TL;DR
 
@@ -83,4 +83,4 @@ RAG 的意义在于，它把「知识」与「语言能力」做了一定程度�
 
 与此同时，这一框架的效果在相当程度上受限于检索环节：如果检索器召回的段落不相关或不完整，生成质量也会随之下降；外部知识库的覆盖范围、构建与维护质量，以及检索与生成之间如何更好地协同，都是需要持续打磨的方向。这些也正是后续大量检索增强研究所围绕展开的核心问题。
 
-> 延伸阅读：Lewis et al., 《Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks》，arXiv:2005.11401（https://arxiv.org/abs/2005.11401）。
+> 延伸阅读：Lewis et al., 《Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks》，arXiv:2005.11401（<https://arxiv.org/abs/2005.11401>）。

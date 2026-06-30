@@ -11,7 +11,7 @@ tags:
   - Moonshot
 ---
 
-> 本文是对月之暗面（Moonshot AI）技术报告《Kimi K2: Open Agentic Intelligence》的阅读笔记与解读。原文出处：Moonshot AI, 2025, *Kimi K2: Open Agentic Intelligence*, arXiv:2507.20534（https://arxiv.org/abs/2507.20534）。文中观点与事实以原报告为准，本文仅做梳理与延展。
+> 本文是对月之暗面（Moonshot AI）技术报告《Kimi K2: Open Agentic Intelligence》的阅读笔记与解读。原文出处：Moonshot AI, 2025, *Kimi K2: Open Agentic Intelligence*, arXiv:2507.20534（<https://arxiv.org/abs/2507.20534>）。文中观点与事实以原报告为准，本文仅做梳理与延展。
 
 ## TL;DR
 
@@ -80,4 +80,4 @@ flowchart LR
 
 局限与边界同样需要客观看待。MoE 模型在部署时面临专家分布带来的显存与调度复杂度，对推理基础设施有一定要求；万亿参数的服务成本即便在稀疏激活下也不容低估。此外，「智能体智能」是一个仍在快速演进的目标，模型在真实多步任务中的可靠性、工具调用的鲁棒性，仍需在具体场景中长期检验。关于各项基准的精确表现，应以原报告与后续公开评测为准，本文不就未公开的精确数值做引申。
 
-> 延伸阅读：Moonshot AI, *Kimi K2: Open Agentic Intelligence*, arXiv:2507.20534（https://arxiv.org/abs/2507.20534）。
+> 延伸阅读：Moonshot AI, *Kimi K2: Open Agentic Intelligence*, arXiv:2507.20534（<https://arxiv.org/abs/2507.20534>）。

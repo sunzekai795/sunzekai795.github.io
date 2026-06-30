@@ -11,7 +11,7 @@ tags:
   - SFT
 ---
 
-> 本文是对 Ye et al. (GAIR-NLP), 2025, "LIMO: Less is More for Reasoning"（arXiv:2502.03387，https://arxiv.org/abs/2502.03387）的阅读笔记与解读，旨在梳理其核心主张与方法脉络，便于快速把握要点。
+> 本文是对 Ye et al. (GAIR-NLP), 2025, "LIMO: Less is More for Reasoning"（arXiv:2502.03387，<https://arxiv.org/abs/2502.03387>）的阅读笔记与解读，旨在梳理其核心主张与方法脉络，便于快速把握要点。
 
 ## TL;DR
 
@@ -86,4 +86,4 @@ flowchart LR
 
 总体而言，LIMO 提供了一个清晰的视角转换：把后训练理解为对既有能力的激发，而非对新能力的堆砌。这一视角为理解「数据与能力」的关系提供了有价值的参照。
 
-> 延伸阅读：LIMO: Less is More for Reasoning，arXiv:2502.03387（https://arxiv.org/abs/2502.03387）。
+> 延伸阅读：LIMO: Less is More for Reasoning，arXiv:2502.03387（<https://arxiv.org/abs/2502.03387>）。

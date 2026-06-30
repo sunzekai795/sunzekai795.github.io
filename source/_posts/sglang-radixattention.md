@@ -10,7 +10,7 @@ tags:
   - 开源项目
 ---
 
-> 本文是对论文 Zheng et al., 2023, 《SGLang: Efficient Execution of Structured Language Model Programs》（arXiv:2312.07104，https://arxiv.org/abs/2312.07104）的阅读笔记与解读，旨在梳理其核心思想，不替代原文。
+> 本文是对论文 Zheng et al., 2023, 《SGLang: Efficient Execution of Structured Language Model Programs》（arXiv:2312.07104，<https://arxiv.org/abs/2312.07104>）的阅读笔记与解读，旨在梳理其核心思想，不替代原文。
 
 ## TL;DR
 
@@ -75,4 +75,4 @@ SGLang 的价值在于把「结构化 LLM 程序」作为一个整体来看待�
 
 就适用边界而言，RadixAttention 的收益高度依赖工作流中前缀的复用程度：当请求之间几乎不共享前缀时，可复用的缓存有限，优化空间相应收窄；同时，维护基数树与管理共享缓存本身也会引入额外的工程复杂度。换言之，它更适合那些天然存在大量公共前缀的结构化场景，而非所有推理负载。
 
-> 延伸阅读：SGLang: Efficient Execution of Structured Language Model Programs，arXiv:2312.07104（https://arxiv.org/abs/2312.07104）
+> 延伸阅读：SGLang: Efficient Execution of Structured Language Model Programs，arXiv:2312.07104（<https://arxiv.org/abs/2312.07104>）

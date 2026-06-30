@@ -11,7 +11,7 @@ tags:
   - 稀疏专家
 ---
 
-> 本文是对 Mistral AI 技术报告《Mixtral of Experts》（2024，arXiv:2401.04088，原文链接：https://arxiv.org/abs/2401.04088）的阅读笔记与解读，意在梳理稀疏混合专家模型的设计动机与核心思想，便于回顾这条开源 MoE 路线的代表性工作。
+> 本文是对 Mistral AI 技术报告《Mixtral of Experts》（2024，arXiv:2401.04088，原文链接：<https://arxiv.org/abs/2401.04088>）的阅读笔记与解读，意在梳理稀疏混合专家模型的设计动机与核心思想，便于回顾这条开源 MoE 路线的代表性工作。
 
 ## TL;DR
 
@@ -74,4 +74,4 @@ Mixtral 的意义在于，它把稀疏 MoE 从研究概念推进为一个公开�
 
 局限同样值得正视。稀疏激活省的是计算，而非显存：尽管单 token 只用 Top-2 专家，全部专家的参数仍需常驻内存，部署的显存门槛并不会因此降到 13B 稠密模型的水平。同时，路由本身带来工程复杂度——专家负载是否均衡、批处理时不同 token 走向不同专家如何高效调度，都会影响实际吞吐。这些都是稀疏 MoE 在落地时需要权衡的代价，也是后续研究持续优化的方向。
 
-> 延伸阅读：Mistral AI, 2024, 《Mixtral of Experts》, arXiv:2401.04088（https://arxiv.org/abs/2401.04088）
+> 延伸阅读：Mistral AI, 2024, 《Mixtral of Experts》, arXiv:2401.04088（<https://arxiv.org/abs/2401.04088>）

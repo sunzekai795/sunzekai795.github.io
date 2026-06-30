@@ -11,7 +11,7 @@ tags:
   - PEFT
 ---
 
-> 本文是对 Dettmers et al., 2023《QLoRA: Efficient Finetuning of Quantized LLMs》（arXiv:2305.14314，https://arxiv.org/abs/2305.14314）的经典回顾与解读，梳理其核心思想与做法，便于理解参数高效微调（PEFT）的关键脉络。
+> 本文是对 Dettmers et al., 2023《QLoRA: Efficient Finetuning of Quantized LLMs》（arXiv:2305.14314，<https://arxiv.org/abs/2305.14314>）的经典回顾与解读，梳理其核心思想与做法，便于理解参数高效微调（PEFT）的关键脉络。
 
 ## TL;DR
 
@@ -75,4 +75,4 @@ QLoRA 的核心意义在于显著降低了大模型微调的资源门槛：通�
 
 总体而言，QLoRA 在"省显存"与"保质量"之间找到了一个被广泛采用的平衡点，是参数高效微调脉络中的重要一环。
 
-> 延伸阅读：QLoRA: Efficient Finetuning of Quantized LLMs（arXiv:2305.14314，https://arxiv.org/abs/2305.14314）
+> 延伸阅读：QLoRA: Efficient Finetuning of Quantized LLMs（arXiv:2305.14314，<https://arxiv.org/abs/2305.14314>）

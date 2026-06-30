@@ -11,7 +11,7 @@ tags:
   - 指令微调
 ---
 
-> 本文是对 Ouyang et al., 2022, *"Training language models to follow instructions with human feedback"* 的阅读笔记与解读。原文出处：arXiv:2203.02155，链接：https://arxiv.org/abs/2203.02155 。文中观点与结论均以原论文为准，笔记部分仅作梳理。
+> 本文是对 Ouyang et al., 2022, *"Training language models to follow instructions with human feedback"* 的阅读笔记与解读。原文出处：arXiv:2203.02155，链接：<https://arxiv.org/abs/2203.02155> 。文中观点与结论均以原论文为准，笔记部分仅作梳理。
 
 ## TL;DR
 

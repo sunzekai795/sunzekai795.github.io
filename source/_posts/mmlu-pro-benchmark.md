@@ -11,7 +11,7 @@ tags:
   - Benchmark
 ---
 
-> 本文是对 Wang et al., 2024, "MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark"（arXiv:2406.01574，https://arxiv.org/abs/2406.01574）的阅读笔记与解读，内容以原论文为准，如有出入以原文为准。
+> 本文是对 Wang et al., 2024, "MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark"（arXiv:2406.01574，<https://arxiv.org/abs/2406.01574>）的阅读笔记与解读，内容以原论文为准，如有出入以原文为准。
 
 ## TL;DR
 

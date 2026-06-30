@@ -11,7 +11,7 @@ tags:
   - 自监督
 ---
 
-> 本文是对论文《Toolformer: Language Models Can Teach Themselves to Use Tools》（Schick et al., Meta, 2023, arXiv:2302.04761，链接：https://arxiv.org/abs/2302.04761 ）的阅读笔记与解读，旨在梳理其核心思想与方法脉络，便于回顾这条「LLM + 工具」研究路线的早期代表作。
+> 本文是对论文《Toolformer: Language Models Can Teach Themselves to Use Tools》（Schick et al., Meta, 2023, arXiv:2302.04761，链接：<https://arxiv.org/abs/2302.04761> ）的阅读笔记与解读，旨在梳理其核心思想与方法脉络，便于回顾这条「LLM + 工具」研究路线的早期代表作。
 
 ## TL;DR
 
@@ -84,4 +84,4 @@ Toolformer 的意义在于，它给出了一条「让模型自监督地学会用
 
 局限方面，需要保持客观：以预测损失下降作为唯一判据，本质上度量的是「对文本预测是否有帮助」，未必完全等同于「对完成真实任务是否有帮助」；方法依赖工具接口的清晰可执行，对接口复杂、调用链较长或需要多步交互的场景，单纯依靠这种数据构造方式可能不够。后续工作在多工具编排、与推理过程的结合等方向上做了诸多延展，而 Toolformer 提供的，是这条道路上一块重要的奠基石。
 
-> 延伸阅读：Schick et al., 《Toolformer: Language Models Can Teach Themselves to Use Tools》，arXiv:2302.04761（https://arxiv.org/abs/2302.04761 ）。
+> 延伸阅读：Schick et al., 《Toolformer: Language Models Can Teach Themselves to Use Tools》，arXiv:2302.04761（<https://arxiv.org/abs/2302.04761> ）。

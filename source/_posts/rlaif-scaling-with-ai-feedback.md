@@ -11,7 +11,7 @@ tags:
   - AI反馈
 ---
 
-> 本文是对 Lee et al., 2023, 『RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback』(arXiv:2309.00267, https://arxiv.org/abs/2309.00267) 的阅读笔记与解读，旨在梳理其核心思路与结论，便于自己日后回顾，具体细节请以原文为准。
+> 本文是对 Lee et al., 2023, 『RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback』(arXiv:2309.00267, <https://arxiv.org/abs/2309.00267>) 的阅读笔记与解读，旨在梳理其核心思路与结论，便于自己日后回顾，具体细节请以原文为准。
 
 ## TL;DR
 
@@ -85,4 +85,4 @@ RLAIF 的价值在于，它用实证的方式说明了 AI 反馈作为人类反�
 
 与此同时，也存在需要审慎对待的方面。让 LLM 充当标注者，意味着标注质量受其自身能力与偏好的约束，标注提示设计、位置偏差等问题都需要专门处理；AI 标注者可能携带的系统性偏差，是否会在训练中被放大，也值得关注。此外，本文的相当结论是在摘要、对话等任务上观察到的，能否推广到更广泛、更复杂的任务，仍需进一步验证。总体而言，RLAIF 提供的是一种有前景的可扩展思路，而非对人类反馈的全面替代。
 
-> 延伸阅读：Lee et al., 『RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback』，arXiv:2309.00267（https://arxiv.org/abs/2309.00267）。
+> 延伸阅读：Lee et al., 『RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback』，arXiv:2309.00267（<https://arxiv.org/abs/2309.00267>）。

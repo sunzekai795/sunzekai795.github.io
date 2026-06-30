@@ -11,7 +11,7 @@ tags:
   - 提示工程
 ---
 
-> 本文是对经典论文的解读与回顾。原文为 Wei et al., 2022（NeurIPS 2022），《Chain-of-Thought Prompting Elicits Reasoning in Large Language Models》，arXiv:2201.11903（https://arxiv.org/abs/2201.11903）。下文围绕论文公认的核心思想与结论展开。
+> 本文是对经典论文的解读与回顾。原文为 Wei et al., 2022（NeurIPS 2022），《Chain-of-Thought Prompting Elicits Reasoning in Large Language Models》，arXiv:2201.11903（<https://arxiv.org/abs/2201.11903>）。下文围绕论文公认的核心思想与结论展开。
 
 ## TL;DR
 
@@ -86,4 +86,4 @@ CoT 的真正价值，或许不在于某一具体任务上的提升，而在于�
 
 与此同时，CoT 也有其边界。其一，收益依赖模型规模，在小模型上可能适得其反；其二，模型写出的推理过程未必真实反映其内部计算，「看起来合理的推理」与「正确的答案」之间并不总是一致；其三，CoT 主要适用于需要多步展开的任务，对直接型任务帮助有限。理解这些边界，有助于在实际中更恰当地使用思维链。
 
-> 延伸阅读：Wei et al., 2022, 《Chain-of-Thought Prompting Elicits Reasoning in Large Language Models》，arXiv:2201.11903（https://arxiv.org/abs/2201.11903）
+> 延伸阅读：Wei et al., 2022, 《Chain-of-Thought Prompting Elicits Reasoning in Large Language Models》，arXiv:2201.11903（<https://arxiv.org/abs/2201.11903>）

@@ -11,7 +11,7 @@ tags:
   - 情感计算
 ---
 
-> 本文是对 Xie 等人（华南理工大学，2025，ACL 2025 Main）论文《PsyDT: Using LLMs to Construct the Digital Twin of Psychological Counselor with Personalized Counseling Style》的阅读笔记。原文见 arXiv:2412.13660（https://arxiv.org/abs/2412.13660）。该工作是 SoulChat 系列在心理健康对话方向上的延续，本文仅做学术解读，不构成任何心理健康建议。
+> 本文是对 Xie 等人（华南理工大学，2025，ACL 2025 Main）论文《PsyDT: Using LLMs to Construct the Digital Twin of Psychological Counselor with Personalized Counseling Style》的阅读笔记。原文见 arXiv:2412.13660（<https://arxiv.org/abs/2412.13660>）。该工作是 SoulChat 系列在心理健康对话方向上的延续，本文仅做学术解读，不构成任何心理健康建议。
 
 ## TL;DR
 
@@ -78,4 +78,4 @@ flowchart LR
 
 从局限上看，合成数据与真实咨询之间始终存在差距，风格的可量化评估也较为困难；个性化模仿带来的伦理责任、适用范围与安全边界，需要在落地前被充分界定。总体而言，它指出了一个有价值的方向，但距离临床可用仍有相当距离，应保持研究与辅助的审慎定位。
 
-> 延伸阅读：PsyDT 论文原文 arXiv:2412.13660（https://arxiv.org/abs/2412.13660）。
+> 延伸阅读：PsyDT 论文原文 arXiv:2412.13660（<https://arxiv.org/abs/2412.13660>）。

@@ -11,7 +11,7 @@ tags:
   - 安全
 ---
 
-> 本文是对 Anthropic 论文 *Constitutional AI: Harmlessness from AI Feedback*（Bai et al., 2022）的阅读笔记与解读。原文出处：arXiv:2212.08073，链接：https://arxiv.org/abs/2212.08073 。文中观点以原论文为准，笔记仅作梳理。
+> 本文是对 Anthropic 论文 *Constitutional AI: Harmlessness from AI Feedback*（Bai et al., 2022）的阅读笔记与解读。原文出处：arXiv:2212.08073，链接：<https://arxiv.org/abs/2212.08073> 。文中观点以原论文为准，笔记仅作梳理。
 
 ## TL;DR
 
@@ -84,4 +84,4 @@ CAI 中的"宪法"是一组用自然语言写出的原则，例如要求回答�
 
 **局限**方面，需要客观看到：方法的效果依赖于初始模型本身具备一定的判断与遵循指令能力，能力不足的模型难以可靠地完成自我批评与偏好判断；宪法原则由人撰写，其覆盖面、措辞与潜在偏差会传导到最终模型的行为；用模型评价模型也可能引入与人类期望不一致的偏差。这些都属于该范式在实际应用中需要持续关注的方向。
 
-> 延伸阅读：Bai et al., 2022, *Constitutional AI: Harmlessness from AI Feedback*, arXiv:2212.08073（https://arxiv.org/abs/2212.08073）。
+> 延伸阅读：Bai et al., 2022, *Constitutional AI: Harmlessness from AI Feedback*, arXiv:2212.08073（<https://arxiv.org/abs/2212.08073>）。

@@ -11,7 +11,7 @@ tags:
   - Agent
 ---
 
-> 本文是对智谱 AI（Z.ai）技术报告《GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models》（Zhipu AI / Z.ai, 2025, arXiv:2508.06471，[https://arxiv.org/abs/2508.06471](https://arxiv.org/abs/2508.06471)）的阅读笔记与解读，旨在梳理其设计定位与核心思路，引用的数据均来自原报告。
+> 本文是对智谱 AI（Z.ai）技术报告《GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models》（Zhipu AI / Z.ai, 2025, arXiv:2508.06471，[<https://arxiv.org/abs/2508.06471>](https://arxiv.org/abs/2508.06471)）的阅读笔记与解读，旨在梳理其设计定位与核心思路，引用的数据均来自原报告。
 
 ## TL;DR
 

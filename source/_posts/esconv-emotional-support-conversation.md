@@ -11,7 +11,7 @@ tags:
   - 共情
 ---
 
-> 本文是对 Liu et al., ACL 2021《Towards Emotional Support Conversation》的阅读笔记与解读。论文提出了情感支持对话（Emotional Support Conversation, ESC）任务，并发布了配套的众包数据集 ESConv。原文见 arXiv:2106.01144（https://arxiv.org/abs/2106.01144）。文中观点以原文为准，本文仅作梳理。
+> 本文是对 Liu et al., ACL 2021《Towards Emotional Support Conversation》的阅读笔记与解读。论文提出了情感支持对话（Emotional Support Conversation, ESC）任务，并发布了配套的众包数据集 ESConv。原文见 arXiv:2106.01144（<https://arxiv.org/abs/2106.01144>）。文中观点以原文为准，本文仅作梳理。
 
 ## TL;DR
 

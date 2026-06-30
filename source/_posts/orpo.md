@@ -11,7 +11,7 @@ tags:
   - 无参考
 ---
 
-> 本文是对 Hong et al., 2024（EMNLP 2024）《ORPO: Monolithic Preference Optimization without Reference Model》的经典回顾与解读，原文见 arXiv:2403.07691（https://arxiv.org/abs/2403.07691）。下文力求贴合论文原意，对其动机、核心思想与定位做定性梳理。
+> 本文是对 Hong et al., 2024（EMNLP 2024）《ORPO: Monolithic Preference Optimization without Reference Model》的经典回顾与解读，原文见 arXiv:2403.07691（<https://arxiv.org/abs/2403.07691>）。下文力求贴合论文原意，对其动机、核心思想与定位做定性梳理。
 
 ## TL;DR
 
@@ -79,4 +79,4 @@ ORPO 的意义首先在于流程上的简化：它把「SFT + 偏好对齐」两
 
 局限方面同样需要客观看待。把偏好对齐与 SFT 合并，意味着两者的训练动态被耦合在同一个目标里，权衡的灵活度可能不如分阶段方案；几率比惩罚项的设计与权重，对不同任务、不同数据分布的适配也需要谨慎调节。此外，作为偏好优化家族中的一员，ORPO 与 DPO、SimPO、KTO 等方法各有侧重，孰优孰劣并无定论，应结合具体场景与数据条件来选择。
 
-> 延伸阅读：ORPO 原文 arXiv:2403.07691（https://arxiv.org/abs/2403.07691），以及 DPO、SimPO、KTO 等同属「直接偏好优化」家族的相关工作。
+> 延伸阅读：ORPO 原文 arXiv:2403.07691（<https://arxiv.org/abs/2403.07691>），以及 DPO、SimPO、KTO 等同属「直接偏好优化」家族的相关工作。

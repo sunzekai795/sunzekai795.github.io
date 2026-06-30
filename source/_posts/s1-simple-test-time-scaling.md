@@ -11,7 +11,7 @@ tags:
   - 数据高效
 ---
 
-> 本文是对 Muennighoff et al.（Stanford / UW / AI2 等），2025，《s1: Simple test-time scaling》的阅读笔记与解读，论文见 arXiv:2501.19393（https://arxiv.org/abs/2501.19393）。代码开源在 simplescaling/s1。文中观点以原文为准，本文只做梳理与背景补充。
+> 本文是对 Muennighoff et al.（Stanford / UW / AI2 等），2025，《s1: Simple test-time scaling》的阅读笔记与解读，论文见 arXiv:2501.19393（<https://arxiv.org/abs/2501.19393>）。代码开源在 simplescaling/s1。文中观点以原文为准，本文只做梳理与背景补充。
 
 ## TL;DR
 
@@ -77,4 +77,4 @@ s1 的意义在于提供了一个简单、开放、可复现的测试时扩展�
 
 局限方面也需保持克制的判断。约 1000 条样本的筛选本身依赖于精心设计，其有效性与所选基础模型、题目分布密切相关；budget forcing 通过追加提示与截断来调节预算，随着思考链不断拉长，收益是否持续递增、在不同任务上的稳健性如何，都需要在更广的设置下进一步检验。「接近 o1-preview 水平区间」是面向特定推理任务的定性表述，不宜外推为全面对等。总体而言，s1 更像是对「强推理的最小必要条件」的一次有力探索，而非给出最终配方。
 
-> 延伸阅读：s1: Simple test-time scaling（arXiv:2501.19393），https://arxiv.org/abs/2501.19393
+> 延伸阅读：s1: Simple test-time scaling（arXiv:2501.19393），<https://arxiv.org/abs/2501.19393>

@@ -11,7 +11,7 @@ tags:
   - 开源模型
 ---
 
-> 本文是对 Meta AI 于 2024 年发布的技术报告《The Llama 3 Herd of Models》(arXiv:2407.21783，https://arxiv.org/abs/2407.21783) 的阅读笔记与解读。文中所述事实均以该报告为准，未公开的精确数字不作展开。
+> 本文是对 Meta AI 于 2024 年发布的技术报告《The Llama 3 Herd of Models》(arXiv:2407.21783，<https://arxiv.org/abs/2407.21783>) 的阅读笔记与解读。文中所述事实均以该报告为准，未公开的精确数字不作展开。
 
 ## TL;DR
 
@@ -79,4 +79,4 @@ Llama 3 的意义在于：它把一个权重开放、细节相对透明的模型
 
 局限方面，超大规模模型对算力与部署资源的要求依然很高，405B 这类旗舰并非人人可在本地运行；与所有大语言模型一样，事实性、偏见与安全性仍是需要持续治理的问题。报告中部分评测细节与精确分数以原文为准，此处不作展开。总体而言，Llama 3 体现了「开源也能逼近前沿」的可能性，其价值既在模型本身，也在它所公开的方法与经验。
 
-> 延伸阅读：Meta AI, "The Llama 3 Herd of Models", arXiv:2407.21783，https://arxiv.org/abs/2407.21783
+> 延伸阅读：Meta AI, "The Llama 3 Herd of Models", arXiv:2407.21783，<https://arxiv.org/abs/2407.21783>

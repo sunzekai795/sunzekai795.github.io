@@ -11,7 +11,7 @@ tags:
   - 长上下文
 ---
 
-> 本文是对 DeepSeek 技术报告的阅读笔记与解读。DeepSeek 于 2025 年 9 月 29 日发布 DeepSeek-V3.2-Exp，引入 DeepSeek Sparse Attention（DSA）；相关技术报告见 arXiv:2512.02556（https://arxiv.org/abs/2512.02556）。本文仅在公开信息范围内做定性梳理，不展开未公开的精确数字。
+> 本文是对 DeepSeek 技术报告的阅读笔记与解读。DeepSeek 于 2025 年 9 月 29 日发布 DeepSeek-V3.2-Exp，引入 DeepSeek Sparse Attention（DSA）；相关技术报告见 arXiv:2512.02556（<https://arxiv.org/abs/2512.02556>）。本文仅在公开信息范围内做定性梳理，不展开未公开的精确数字。
 
 ## TL;DR
 
@@ -77,4 +77,4 @@ DeepSeek-V3.2-Exp 以「实验性」（Exp）形态发布，建立在 V3.1-Termi
 
 从局限看，稀疏注意力的收益与「相关子集」选择的质量强相关，不同任务、不同上下文长度下的表现仍需以公开评测为准；「Exp」命名本身也表明这是阶段性探索。对于具体收益的精确量化，应以 DeepSeek 公开的技术报告与基准结果为依据，避免以未经证实的数字下结论。
 
-> 延伸阅读：DeepSeek-V3.2-Exp 技术报告 arXiv:2512.02556（https://arxiv.org/abs/2512.02556）。
+> 延伸阅读：DeepSeek-V3.2-Exp 技术报告 arXiv:2512.02556（<https://arxiv.org/abs/2512.02556>）。

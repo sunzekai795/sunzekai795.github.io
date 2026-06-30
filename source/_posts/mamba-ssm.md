@@ -11,7 +11,7 @@ tags:
   - 架构
 ---
 
-> 本文是对 Gu & Dao 经典论文《Mamba: Linear-Time Sequence Modeling with Selective State Spaces》（arXiv:2312.00752，https://arxiv.org/abs/2312.00752）的阅读笔记与解读。Mamba 提出了带「选择性」机制的状态空间模型，是近年「非注意力」高效序列建模方向上的代表性工作。
+> 本文是对 Gu & Dao 经典论文《Mamba: Linear-Time Sequence Modeling with Selective State Spaces》（arXiv:2312.00752，<https://arxiv.org/abs/2312.00752>）的阅读笔记与解读。Mamba 提出了带「选择性」机制的状态空间模型，是近年「非注意力」高效序列建模方向上的代表性工作。
 
 ## TL;DR
 
@@ -77,4 +77,4 @@ Mamba 的出现，重新点燃了学术界与工业界对 SSM 及其变体的兴
 
 局限层面也应客观看待。注意力机制经过多年发展，拥有极为成熟的生态、工具链与工程经验，而 SSM 类方法在系统支持、可解释性和大规模长期验证上仍处于持续完善的阶段；不同任务、不同规模下两类架构的取舍，也需要更多实践来厘清。更可能的趋势，是注意力与状态空间思想在混合架构中各取所长，而非简单的彼此取代。
 
-> 延伸阅读：Gu & Dao, 《Mamba: Linear-Time Sequence Modeling with Selective State Spaces》，arXiv:2312.00752，https://arxiv.org/abs/2312.00752
+> 延伸阅读：Gu & Dao, 《Mamba: Linear-Time Sequence Modeling with Selective State Spaces》，arXiv:2312.00752，<https://arxiv.org/abs/2312.00752>

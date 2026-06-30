@@ -11,7 +11,7 @@ tags:
   - 开源模型
 ---
 
-> 本文是对 Qwen3 技术报告的阅读笔记与解读。原文出处：Qwen Team, 2025, "Qwen3 Technical Report", arXiv:2505.09388（https://arxiv.org/abs/2505.09388）。文中事实以技术报告为准，解读部分为笔者整理，未公开的精确数据不在讨论范围之内。
+> 本文是对 Qwen3 技术报告的阅读笔记与解读。原文出处：Qwen Team, 2025, "Qwen3 Technical Report", arXiv:2505.09388（<https://arxiv.org/abs/2505.09388>）。文中事实以技术报告为准，解读部分为笔者整理，未公开的精确数据不在讨论范围之内。
 
 ## TL;DR
 
@@ -75,4 +75,4 @@ flowchart TD
 
 从局限上看，统一推理模式带来的灵活性，也要求使用者对何时启用思考模式做出判断——模式选择本身成为新的工程变量；MoE 架构在容量与激活成本上的优势，同时伴随专家路由、部署与显存管理上的复杂性。此外，本文仅依据公开技术报告进行概括性解读，具体的评测分数、训练细节与对比结论应以原始报告及官方发布为准，本文不对未公开的精确数据作出断言。
 
-> 延伸阅读：Qwen Team, 2025, "Qwen3 Technical Report", arXiv:2505.09388（https://arxiv.org/abs/2505.09388）。
+> 延伸阅读：Qwen Team, 2025, "Qwen3 Technical Report", arXiv:2505.09388（<https://arxiv.org/abs/2505.09388>）。
