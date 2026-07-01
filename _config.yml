@@ -97,12 +97,3 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: redefine
-
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  # 必填，Github 仓库地址
-  repo: https://github.com/sunzekai795/sunzekai795.github.io
-  branch: 'gh-pages'    # 决定上传到哪个节点下，这里默认选择 'main'
-  token:            # 可不填
