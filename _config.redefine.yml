@@ -649,13 +649,21 @@ comment:
   # Whether to enable comment
   enable: true
   # Comment system
-  system: twikoo # waline, gitalk, twikoo, giscus
+  system: giscus # waline, gitalk, twikoo, giscus
   # System configuration
   config:
-    twikoo:
-      version: 1.6.10 # Twikoo version, do not modify if you dont know what it is
-      server_url: https://hexo-vercel-comment.vercel.app/ # Twikoo server URL. e.g. https://example.example.com
-      region: # Twikoo region. can be empty
+    giscus:
+      repo: sunzekai795/sunzekai795.github.io # Github repository name
+      repo_id: R_kgDOM_F8Tg # 从 giscus.app 生成
+      category: Announcements # Github discussion category
+      category_id: DIC_kwDOM_F8Ts4DAQM7 # 从 giscus.app 生成
+      mapping: pathname # 用页面路径作为每篇文章评论的唯一标识
+      strict: 0
+      reactions_enabled: 1
+      emit_metadata: 0
+      lang: zh-CN # 评论组件界面语言
+      input_position: bottom
+      loading: lazy
 # COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
