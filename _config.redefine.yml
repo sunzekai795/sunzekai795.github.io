@@ -692,11 +692,29 @@ footer:
 # Docs: https://redefine-docs.ohevan.com/inject
 inject:
   # Whether to enable inject
-  enable: false
+  enable: true
   # Inject custom head html code
-  head: 
-    -
-    -
+  head:
+    - |
+      <script>
+      // 每次打开页面/导航回首页时，随机打乱首页名言的顺序（在 typed 初始化前执行）
+      (function () {
+        function shuffleSubtitle() {
+          try {
+            var s = window.theme && window.theme.home_banner && window.theme.home_banner.subtitle;
+            if (!s || !Array.isArray(s.text)) return;
+            var a = s.text;
+            for (var i = a.length - 1; i > 0; i--) {
+              var j = Math.floor(Math.random() * (i + 1));
+              var t = a[i]; a[i] = a[j]; a[j] = t;
+            }
+          } catch (e) {}
+        }
+        shuffleSubtitle();
+        document.addEventListener('DOMContentLoaded', shuffleSubtitle);
+        document.addEventListener('swup:page:view', shuffleSubtitle);
+      })();
+      </script>
   # Inject custom footer html code
   footer:
     -
