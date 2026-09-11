@@ -1,0 +1,145 @@
+
+# 友链数据：经典学习资料 / 高 star GitHub 仓库 / 计算机热门网站 / 顶级会议
+# 头像统一使用 Google favicon 服务，对任意域名稳定返回图标
+
+- links_category: Classic learning materials
+  has_thumbnail: false
+  list:
+    - name: Dive into Deep Learning (D2L)
+      link: https://d2l.ai/
+      description: 交互式深度学习开源教材，含代码、数学与多框架实现，中英双语。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=d2l.ai
+
+    - name: MIT OpenCourseWare
+      link: https://ocw.mit.edu/
+      description: 麻省理工开放课程，海量计算机与数学课程讲义、作业与视频。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=ocw.mit.edu
+
+    - name: Stanford CS231n
+      link: https://cs231n.github.io/
+      description: 斯坦福经典视觉与深度学习课程笔记，入门 CNN 的最佳材料之一。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=cs231n.github.io
+
+    - name: The Annotated Transformer
+      link: https://nlp.seas.harvard.edu/annotated-transformer/
+      description: 哈佛 NLP 组逐行注释实现 Transformer，配合论文阅读极佳。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=harvard.edu
+
+    - name: fast.ai
+      link: https://www.fast.ai/
+      description: 自顶向下的实战派深度学习课程，强调动手与可达性。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=fast.ai
+
+    - name: Distill.pub
+      link: https://distill.pub/
+      description: 以可视化与交互讲清机器学习概念的研究刊物，质量极高。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=distill.pub
+
+- links_category: High star GitHub repos
+  has_thumbnail: false
+  list:
+    - name: PyTorch
+      link: https://github.com/pytorch/pytorch
+      description: 最主流的深度学习框架之一，动态图、生态完善。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=github.com
+
+    - name: Hugging Face Transformers
+      link: https://github.com/huggingface/transformers
+      description: 预训练模型的事实标准库，覆盖 NLP/CV/多模态。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
+
+    - name: vLLM
+      link: https://github.com/vllm-project/vllm
+      description: 高吞吐 LLM 推理引擎，PagedAttention 的开源实现。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=github.com
+
+    - name: Ollama
+      link: https://github.com/ollama/ollama
+      description: 一行命令在本地跑开源大模型，体验极简。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=ollama.com
+
+    - name: llama.cpp
+      link: https://github.com/ggml-org/llama.cpp
+      description: 纯 C/C++ 的 LLM 推理，量化模型在端侧也能跑。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=github.com
+
+    - name: LangChain
+      link: https://github.com/langchain-ai/langchain
+      description: 构建 LLM 应用与 Agent 的流行框架。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=github.com
+
+    - name: LLaMA-Factory
+      link: https://github.com/hiyouga/LLaMA-Factory
+      description: 统一高效微调上百种大模型的开源工具。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=github.com
+
+- links_category: Popular websites
+  has_thumbnail: false
+  list:
+    - name: arXiv
+      link: https://arxiv.org/
+      description: 计算机与 AI 预印本论文的第一来源。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=arxiv.org
+
+    - name: Papers with Code
+      link: https://paperswithcode.com/
+      description: 论文配代码与榜单，追踪 SOTA 的好去处。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=paperswithcode.com
+
+    - name: Hugging Face
+      link: https://huggingface.co/
+      description: 模型、数据集与 Demo 的开源社区中枢。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
+
+    - name: Stack Overflow
+      link: https://stackoverflow.com/
+      description: 程序员问答社区，几乎所有报错都能找到线索。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=stackoverflow.com
+
+    - name: Google Scholar
+      link: https://scholar.google.com/
+      description: 学术搜索与引用追踪。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=scholar.google.com
+
+    - name: DBLP
+      link: https://dblp.org/
+      description: 计算机领域权威的论文与作者书目数据库。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=dblp.org
+
+    - name: OpenReview
+      link: https://openreview.net/
+      description: 顶会公开评审平台，可看审稿意见与讨论。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=openreview.net
+
+- links_category: Top conferences
+  has_thumbnail: false
+  list:
+    - name: NeurIPS
+      link: https://neurips.cc/
+      description: 机器学习与计算神经科学顶级会议。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=neurips.cc
+
+    - name: ICML
+      link: https://icml.cc/
+      description: 国际机器学习大会。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=icml.cc
+
+    - name: ICLR
+      link: https://iclr.cc/
+      description: 表示学习领域顶级会议。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=iclr.cc
+
+    - name: ACL Anthology
+      link: https://aclanthology.org/
+      description: ACL/EMNLP/NAACL 等 NLP 顶会论文全集。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=aclanthology.org
+
+    - name: CVF Open Access
+      link: https://openaccess.thecvf.com/
+      description: CVPR/ICCV/ECCV 等视觉顶会的开放获取论文。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=thecvf.com
+
+    - name: AAAI
+      link: https://aaai.org/
+      description: 人工智能领域历史悠久的综合性顶级会议。
+      avatar: https://www.google.com/s2/favicons?sz=64&domain=aaai.org
